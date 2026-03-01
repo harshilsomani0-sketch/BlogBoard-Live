@@ -67,8 +67,8 @@ jobs:
       - name: Commit and push generated article
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
-          git config --global user.name  "BlogBoard Bot"
-          git config --global user.email "bot@blogboard.ai"
+          git config --global user.name  "KalyanM45"
+          git config --global user.email "mhemakalyan@gmail.com"
 
           git add frontend/blogs/
           git add backend/schedule.json
@@ -76,6 +76,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "🤖 Auto-generate article for $(date -u +'%Y-%m-%d') [skip ci]"
+            git commit -m "🤖 Auto-generate article for $(date -u +'%Y-%m-%d')"
             git push
           fi
