@@ -23,10 +23,6 @@
     "domain": "nlp",
     "topic": "Introduction to NLP"
   },
-  "2026-03-06": {
-    "domain": "cv",
-    "topic": "Introduction to Computer Vision"
-  },
   "2026-03-09": {
     "domain": "ml",
     "topic": "ML Project Lifecycle"
