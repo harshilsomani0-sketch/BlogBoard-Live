@@ -16,6 +16,22 @@
     "file": "blogs/ml/machine-learning-types.md"
   },
   {
+    "id": "blogs/ml/ai-explained.md",
+    "category": "ml",
+    "title": "AI Explained",
+    "description": "Learn about artificial intelligence and its applications, discover how AI is changing the world",
+    "date": "2026-02-28",
+    "tags": [
+      "machine-learning",
+      "deep-learning",
+      "natural-language-processing",
+      "artificial-intelligence",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/ai-explained.md"
+  },
+  {
     "id": "blogs/ml/gradient-descent-intuition.md",
     "category": "ml",
     "title": "Gradient Descent: Building Intuition Beyond the Formula",
