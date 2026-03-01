@@ -16,6 +16,22 @@
     "file": "blogs/ml/machine-learning-types.md"
   },
   {
+    "id": "blogs/ml/ai-pros-cons.md",
+    "category": "ml",
+    "title": "AI Pros Cons",
+    "description": "Learn the benefits and drawbacks of artificial intelligence. Discover how AI impacts your life.",
+    "date": "2026-03-01",
+    "tags": [
+      "artificial-intelligence",
+      "machine-learning",
+      "natural-language-processing",
+      "deep-learning",
+      "neural-networks"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/ai-pros-cons.md"
+  },
+  {
     "id": "blogs/ml/ai-explained.md",
     "category": "ml",
     "title": "AI Explained",
