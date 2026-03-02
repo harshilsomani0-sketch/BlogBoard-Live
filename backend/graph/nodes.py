@@ -1,31 +1,14 @@
-"""
-nodes.py
-Five LangGraph node functions that implement the BlogBoard article-generation pipeline.
-
-Node execution order:
-    1. consolidate_schedule   – merge input JSONs → schedule.json
-    2. get_domain_topic       – pick today's domain + topic from the schedule
-    3. llm_generate           – one Groq call → title, description, tags, content
-    4. save_markdown          – write the .md file to frontend/blogs/{domain}/
-    5. update_articles_json   – upsert entry in frontend/blogs/{domain}/articles.json
-"""
-
-from __future__ import annotations
-
 import json
 import math
 import os
 import re
 
 from graph.state import BlogState
-from config.paths   import INPUT_DIR, SCHEDULE_FILE, BLOGS_DIR, PROMPT_FILE
-from config.model   import MODEL, TEMPERATURE, MAX_TOKENS, WORDS_PER_MINUTE
-from config.domains import DOMAIN_MAP, CATEGORY_META
+from config.config import (
+    DOMAIN_MAP, CATEGORY_META, MODEL, TEMPERATURE, MAX_TOKENS, WORDS_PER_MINUTE,
+    INPUT_DIR, SCHEDULE_FILE, PROMPT_DIRECTORY, BLOGS_DIR, BACKEND_DIR
+)
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  Private utilities
-# ─────────────────────────────────────────────────────────────────────────────
 
 def _slugify(text: str) -> str:
     text = text.lower()
@@ -52,17 +35,7 @@ def _get_groq_client():
             "[ERROR] groq package not installed. Run: pip install -r backend/requirements.txt"
         )
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  Node 1 – Consolidate Schedule
-# ─────────────────────────────────────────────────────────────────────────────
-
 def consolidate_schedule(state: BlogState) -> BlogState:
-    """
-    Reads all input JSONs from backend/data/input/, merges them into
-    backend/schedule.json, and loads the result into state["schedule"].
-    """
-    print("\n[Node 1] Consolidating schedule from input JSONs…")
 
     if not INPUT_DIR.exists():
         raise FileNotFoundError(f"Input directory not found: {INPUT_DIR}")
@@ -83,6 +56,7 @@ def consolidate_schedule(state: BlogState) -> BlogState:
         for entry in entries:
             date  = entry.get("date", "").strip()
             topic = entry.get("topic", "").strip()
+            subtopics = entry.get("subtopics", "").strip()
 
             if not date or not topic:
                 print(f"  [WARN]  Skipping entry with missing date/topic in {filename}: {entry}")
@@ -95,13 +69,15 @@ def consolidate_schedule(state: BlogState) -> BlogState:
                     f"{schedule[date]['domain']}, overwriting with {domain}"
                 )
 
-            schedule[date] = {"domain": domain, "topic": topic}
+            schedule_entry = {"domain": domain, "topic": topic}
+            if subtopics:
+                schedule_entry["subtopics"] = subtopics
+
+            schedule[date] = schedule_entry
             total += 1
 
-    # Sort chronologically
-    schedule = dict(sorted(schedule.items()))
 
-    # Persist to schedule.json
+    schedule = dict(sorted(schedule.items()))
     with open(SCHEDULE_FILE, "w", encoding="utf-8") as f:
         json.dump(schedule, f, indent=2, ensure_ascii=False)
 
@@ -109,58 +85,35 @@ def consolidate_schedule(state: BlogState) -> BlogState:
     return {**state, "schedule": schedule}
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  Node 2 – Get Domain & Topic
-# ─────────────────────────────────────────────────────────────────────────────
 
 def get_domain_topic(state: BlogState) -> BlogState:
-    """
-    Looks up state["date"] in the schedule and extracts domain + topic.
-    Sets state["skipped"] = True when no entry exists for the date.
-    """
-    print("\n[Node 2] Resolving domain and topic for date…")
 
-    date     = state["date"]
-    schedule = state["schedule"]
+    date, schedule = state["date"], state["schedule"]
 
     if date not in schedule:
         print(f"  [INFO]  No article scheduled for {date}. (Skipping generation.)")
         return {**state, "skipped": True}
 
-    entry  = schedule[date]
-    domain = entry["domain"]
-    topic  = entry["topic"]
-    label  = CATEGORY_META.get(domain, {}).get("label", domain)
+    entry = schedule[date]
+    domain, topic = entry["domain"], entry["topic"]
+    subtopics = entry.get("subtopics", "")
+    label = CATEGORY_META.get(domain, {}).get("label", domain)
 
-    print(f"  Date   : {date}")
-    print(f"  Domain : {domain}  ({label})")
-    print(f"  Topic  : {topic}")
+    print(f"  Date      : {date}")
+    print(f"  Domain    : {domain}  ({label})")
+    print(f"  Topic     : {topic}")
+    if subtopics:
+        print(f"  Subtopics : {subtopics}")
 
-    return {
-        **state,
-        "domain":  domain,
-        "topic":   topic,
-        "skipped": False,
-    }
+    return {**state, "domain": domain, "topic": topic, "subtopics": subtopics, "skipped": False}
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  Node 3 – LLM Generate
-# ─────────────────────────────────────────────────────────────────────────────
 
 def llm_generate(state: BlogState) -> BlogState:
-    """
-    Calls Groq with the exhaustive blog_generation prompt and parses the
-    returned JSON into title, description, tags, slug, content, and read_time.
-    In dry_run mode, returns placeholder values instead.
-    """
-    print("\n[Node 3] Running LLM generation…")
 
-    domain    = state["domain"]
-    topic     = state["topic"]
+    domain, topic = state["domain"], state["topic"]
+
     cat_label = CATEGORY_META.get(domain, {}).get("label", domain)
 
-    # ── Dry-run shortcut ──────────────────────────────────────────────────────
     if state.get("dry_run"):
         placeholder_title   = f"[DRY RUN] {topic[:60]}"
         placeholder_content = f"# {placeholder_title}\n\nDry run — no LLM call made."
@@ -175,37 +128,68 @@ def llm_generate(state: BlogState) -> BlogState:
             "read_time":   "1 min",
         }
 
-    # ── Load prompt template ──────────────────────────────────────────────────
-    if not PROMPT_FILE.exists():
-        raise FileNotFoundError(f"Prompt file not found: {PROMPT_FILE}")
+    # ── 1. Generate Metadata ──────────────────────────────────────────────────
+    print(f"  ⏳ Generating metadata for {domain}…")
 
-    with open(PROMPT_FILE, "r", encoding="utf-8") as f:
-        prompt_template = f.read()
+    metadata_prompt_path = PROMPT_DIRECTORY / "metadata_generation.txt"
+    if not metadata_prompt_path.exists():
+        raise FileNotFoundError(f"Metadata prompt not found: {metadata_prompt_path}")
 
-    draft_title = topic[:70]
-    prompt = prompt_template.format(
-        cat_label=cat_label,
-        topic=topic,
-        title=draft_title,
-    )
+    with open(metadata_prompt_path, "r", encoding="utf-8") as f:
+        meta_prompt_template = f.read()
 
-    print(f"  ⏳ Calling Groq ({MODEL})…")
+    meta_prompt = meta_prompt_template.replace("{cat_label}", cat_label).replace("{topic}", topic)
+
     client   = _get_groq_client()
-    response = client.chat.completions.create(
+    meta_res = client.chat.completions.create(
         model=MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=TEMPERATURE,
-        max_tokens=MAX_TOKENS,
+        messages=[{"role": "user", "content": meta_prompt}],
+        temperature=1.0,
+        max_tokens=300,
     )
 
-    raw = response.choices[0].message.content.strip()
+    raw_meta = meta_res.choices[0].message.content.strip()
+    raw_meta = re.sub(r"^```json\s*", "", raw_meta, flags=re.MULTILINE)
+    raw_meta = re.sub(r"```\s*$", "", raw_meta, flags=re.MULTILINE)
+    
+    try:
+        meta_dict = json.loads(raw_meta.strip())
+        title       = meta_dict.get("title", topic[:70])
+        description = meta_dict.get("description", "")
+        tags        = meta_dict.get("tags", [domain])
+    except json.JSONDecodeError:
+        print("  [WARN] Failed to parse JSON metadata. Using fallbacks.")
+        title       = topic[:70]
+        description = "A comprehensive guide on " + topic
+        tags        = [domain]
 
-    title       = draft_title
-    description = raw[:150].replace('\n', ' ') + "..."
-    tags        = [domain, "tutorial"]
-    content     = raw
-    slug        = _slugify(title)
-    rt          = _read_time(content)
+    slug = _slugify(title)
+
+    # ── 2. Generate Article Content ───────────────────────────────────────────
+    print(f"  ⏳ Generating article content…")
+    
+    blog_prompt_path = PROMPT_DIRECTORY / "blog_generation.txt"
+    if not blog_prompt_path.exists():
+        raise FileNotFoundError(f"Blog prompt not found: {blog_prompt_path}")
+
+    with open(blog_prompt_path, "r", encoding="utf-8") as f:
+        base_prompt = f.read()
+
+    subtopics = state.get("subtopics", "")
+    base_prompt = base_prompt.replace("{cat_label}", cat_label)
+    base_prompt = base_prompt.replace("{topic}", topic)
+    base_prompt = base_prompt.replace("{title}", title)
+    base_prompt = base_prompt.replace("{subtopics}", subtopics) if subtopics else base_prompt
+
+    blog_res = client.chat.completions.create(
+        model=MODEL,
+        messages=[{"role": "user", "content": base_prompt}],
+        temperature=0.6,
+        max_tokens=3000,
+    )
+
+    content = blog_res.choices[0].message.content.strip()
+    rt      = _read_time(content)
 
     print(f"  Title       : {title}")
     print(f"  Description : {description}")
@@ -224,22 +208,9 @@ def llm_generate(state: BlogState) -> BlogState:
         "read_time":   rt,
     }
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  Node 4 – Save Markdown
-# ─────────────────────────────────────────────────────────────────────────────
-
 def save_markdown(state: BlogState) -> BlogState:
-    """
-    Writes the generated article content to:
-        frontend/blogs/{domain}/{slug}.md
-    Skips the write in dry_run mode.
-    """
-    print("\n[Node 4] Saving markdown file…")
 
-    domain  = state["domain"]
-    slug    = state["slug"]
-    content = state["content"]
+    domain, slug, content = state["domain"], state["slug"], state["content"]
 
     domain_dir  = BLOGS_DIR / domain
     md_filename = f"{slug}.md"
@@ -257,18 +228,8 @@ def save_markdown(state: BlogState) -> BlogState:
     return {**state, "md_path": str(md_path)}
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  Node 5 – Update articles.json
-# ─────────────────────────────────────────────────────────────────────────────
-
 def update_articles_json(state: BlogState) -> BlogState:
-    """
-    Upserts the article metadata into frontend/blogs/{domain}/articles.json,
-    sorts entries by date descending, and saves.
-    Skips the write in dry_run mode.
-    """
-    print("\n[Node 5] Updating articles.json…")
-
+    
     domain      = state["domain"]
     slug        = state["slug"]
     title       = state["title"]
@@ -287,9 +248,13 @@ def update_articles_json(state: BlogState) -> BlogState:
 
     # Load existing articles (gracefully handle missing file)
     articles: list[dict] = []
-    if articles_path.exists():
-        with open(articles_path, "r", encoding="utf-8") as f:
-            articles = json.load(f)
+    if articles_path.exists() and articles_path.stat().st_size > 0:
+        try:
+            with open(articles_path, "r", encoding="utf-8") as f:
+                articles = json.load(f)
+        except json.JSONDecodeError:
+            print(f"  [WARN] {articles_path.name} was invalid/empty JSON. Starting fresh.")
+            articles = []
 
     # Remove any existing entry for this same slug to avoid duplicates
     articles = [a for a in articles if a.get("id") != md_relative]

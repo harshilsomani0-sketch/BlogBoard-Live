@@ -2,7 +2,7 @@ name: Generate Daily Article
 
 on:
   schedule:
-    - cron: '23 10 * * *'   # 15:53 IST (10:23 UTC) test run
+    - cron: '30 21 * * *'   # 03:00 IST (21:30 UTC)
 
   workflow_dispatch:
     inputs:
@@ -44,10 +44,7 @@ jobs:
       - name: Sync dependencies
         run: uv sync --frozen
 
-      - name: Rebuild schedule.json
-        run: uv run backend/scripts/build_schedule.py
-
-      - name: Generate article
+      - name: Generate article via LangGraph
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
@@ -62,7 +59,7 @@ jobs:
             DRY_RUN_ARG="--dry-run"
           fi
 
-          uv run backend/scripts/generate_article.py $DATE_ARG $DRY_RUN_ARG
+          uv run backend/run.py $DATE_ARG $DRY_RUN_ARG
 
       - name: Commit and push generated article
         if: ${{ github.event.inputs.dry_run != 'true' }}
@@ -76,6 +73,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "🤖 Auto-generate article for $(date -u +'%Y-%m-%d')"
+            git commit -m "Article Update: $(date -u +'%Y-%m-%d')"
             git push
           fi

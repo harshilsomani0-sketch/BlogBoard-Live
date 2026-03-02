@@ -1,23 +1,7 @@
-#!/usr/bin/env python3
-"""
-run.py  –  BlogBoard LangGraph Pipeline Entry Point
-====================================================
-Replaces the old backend/scripts/*.py scripts with a single command:
-
-    python backend/run.py [--date YYYY-MM-DD] [--dry-run]
-
-Flags
------
---date YYYY-MM-DD   Target date (default: today in IST)
---dry-run           Preview only — no LLM calls, no file writes
-"""
-
 import argparse
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
-# ── Ensure the backend package is importable when called from repo root ───────
 BACKEND_DIR = Path(__file__).parent
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
@@ -84,7 +68,8 @@ Examples
         "dry_run": dry_run,
     }
 
-    final_state = graph.invoke(initial_state)
+    config = {"configurable": {"thread_id": "blogboard-1"}}
+    final_state = graph.invoke(initial_state, config=config)
 
     # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")

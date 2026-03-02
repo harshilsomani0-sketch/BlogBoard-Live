@@ -1,15 +1,13 @@
 {
-  "2026-03-01": {
-    "domain": "cv",
-    "topic": "Introduction to Computer Vision"
-  },
   "2026-03-02": {
     "domain": "ml",
-    "topic": "What is Machine Learning?"
+    "topic": "What is Machine Learning?",
+    "subtopics": "What is Machine Learning, Why use, Example Applications, Intro to ML Systems and its types"
   },
   "2026-03-03": {
     "domain": "dl",
-    "topic": "Introduction to Deep Learning"
+    "topic": "Introduction to Deep Learning",
+    "subtopics": "What is Deep Learning, Why use, Example Applications, and its types"
   },
   "2026-03-04": {
     "domain": "statistics",
@@ -19,17 +17,17 @@
     "domain": "nlp",
     "topic": "Introduction to NLP"
   },
+  "2026-03-06": {
+    "domain": "cv",
+    "topic": "Introduction to Computer Vision"
+  },
   "2026-03-07": {
     "domain": "genai",
     "topic": "Introduction to Generative AI"
   },
   "2026-03-09": {
     "domain": "ml",
-    "topic": "ML Project Lifecycle"
-  },
-  "2026-03-10": {
-    "domain": "dl",
-    "topic": "Neural Network Fundamentals"
+    "topic": "Main Challenges of Machine Learning"
   },
   "2026-03-11": {
     "domain": "statistics",
@@ -49,11 +47,7 @@
   },
   "2026-03-16": {
     "domain": "ml",
-    "topic": "Types of ML Algorithms"
-  },
-  "2026-03-17": {
-    "domain": "dl",
-    "topic": "Perceptron Explained"
+    "topic": "Life Cycle of Machine Learning Project"
   },
   "2026-03-18": {
     "domain": "statistics",
@@ -73,11 +67,7 @@
   },
   "2026-03-23": {
     "domain": "ml",
-    "topic": "Supervised vs Unsupervised"
-  },
-  "2026-03-24": {
-    "domain": "dl",
-    "topic": "Forward Propagation"
+    "topic": "Supervised Machine Learning - Classfication"
   },
   "2026-03-25": {
     "domain": "statistics",
@@ -97,11 +87,7 @@
   },
   "2026-03-30": {
     "domain": "ml",
-    "topic": "Bias vs Variance"
-  },
-  "2026-03-31": {
-    "domain": "dl",
-    "topic": "Backpropagation Intuition"
+    "topic": "Supervised Machine Learning - Regression"
   },
   "2026-04-01": {
     "domain": "statistics",
@@ -121,11 +107,7 @@
   },
   "2026-04-06": {
     "domain": "ml",
-    "topic": "Overfitting & Underfitting"
-  },
-  "2026-04-07": {
-    "domain": "dl",
-    "topic": "Loss Functions in Deep Learning"
+    "topic": "Unsupervised Machine Learning - Clustering"
   },
   "2026-04-08": {
     "domain": "statistics",
@@ -143,14 +125,6 @@
     "domain": "genai",
     "topic": "Variational Autoencoders"
   },
-  "2026-04-13": {
-    "domain": "ml",
-    "topic": "Train/Test Split"
-  },
-  "2026-04-14": {
-    "domain": "dl",
-    "topic": "Activation Functions Overview"
-  },
   "2026-04-15": {
     "domain": "statistics",
     "topic": "Conditional Probability"
@@ -166,14 +140,6 @@
   "2026-04-18": {
     "domain": "genai",
     "topic": "GAN Fundamentals"
-  },
-  "2026-04-20": {
-    "domain": "ml",
-    "topic": "Cross Validation"
-  },
-  "2026-04-21": {
-    "domain": "dl",
-    "topic": "Gradient Descent Variants"
   },
   "2026-04-22": {
     "domain": "statistics",
@@ -191,14 +157,6 @@
     "domain": "genai",
     "topic": "GAN Training Challenges"
   },
-  "2026-04-27": {
-    "domain": "ml",
-    "topic": "Feature Engineering Basics"
-  },
-  "2026-04-28": {
-    "domain": "dl",
-    "topic": "Optimizers: SGD vs Adam"
-  },
   "2026-04-29": {
     "domain": "statistics",
     "topic": "Random Variables"
@@ -214,14 +172,6 @@
   "2026-05-02": {
     "domain": "genai",
     "topic": "Conditional GANs"
-  },
-  "2026-05-04": {
-    "domain": "ml",
-    "topic": "Data Cleaning in ML"
-  },
-  "2026-05-05": {
-    "domain": "dl",
-    "topic": "Weight Initialization Techniques"
   },
   "2026-05-06": {
     "domain": "statistics",
@@ -239,14 +189,6 @@
     "domain": "genai",
     "topic": "CycleGAN"
   },
-  "2026-05-11": {
-    "domain": "ml",
-    "topic": "Handling Missing Values"
-  },
-  "2026-05-12": {
-    "domain": "dl",
-    "topic": "Vanishing & Exploding Gradients"
-  },
   "2026-05-13": {
     "domain": "statistics",
     "topic": "Normal Distribution"
@@ -262,14 +204,6 @@
   "2026-05-16": {
     "domain": "genai",
     "topic": "Diffusion Model Basics"
-  },
-  "2026-05-18": {
-    "domain": "ml",
-    "topic": "Categorical Encoding Techniques"
-  },
-  "2026-05-19": {
-    "domain": "dl",
-    "topic": "Batch Normalization"
   },
   "2026-05-20": {
     "domain": "statistics",
@@ -287,14 +221,6 @@
     "domain": "genai",
     "topic": "Denoising Diffusion Probabilistic Models"
   },
-  "2026-05-25": {
-    "domain": "ml",
-    "topic": "Feature Scaling Methods"
-  },
-  "2026-05-26": {
-    "domain": "dl",
-    "topic": "Dropout Regularization"
-  },
   "2026-05-27": {
     "domain": "statistics",
     "topic": "Poisson Distribution"
@@ -310,14 +236,6 @@
   "2026-05-30": {
     "domain": "genai",
     "topic": "Latent Diffusion Models"
-  },
-  "2026-06-01": {
-    "domain": "ml",
-    "topic": "Handling Outliers"
-  },
-  "2026-06-02": {
-    "domain": "dl",
-    "topic": "Early Stopping"
   },
   "2026-06-03": {
     "domain": "statistics",
@@ -335,14 +253,6 @@
     "domain": "genai",
     "topic": "Score-Based Generative Models"
   },
-  "2026-06-08": {
-    "domain": "ml",
-    "topic": "Data Leakage Explained"
-  },
-  "2026-06-09": {
-    "domain": "dl",
-    "topic": "Hyperparameter Tuning in DL"
-  },
   "2026-06-10": {
     "domain": "statistics",
     "topic": "Central Limit Theorem"
@@ -358,14 +268,6 @@
   "2026-06-13": {
     "domain": "genai",
     "topic": "Normalizing Flows"
-  },
-  "2026-06-15": {
-    "domain": "ml",
-    "topic": "Linear Regression"
-  },
-  "2026-06-16": {
-    "domain": "dl",
-    "topic": "Building NN with PyTorch"
   },
   "2026-06-17": {
     "domain": "statistics",
@@ -383,14 +285,6 @@
     "domain": "genai",
     "topic": "Transformer Architecture for Generation"
   },
-  "2026-06-22": {
-    "domain": "ml",
-    "topic": "Polynomial Regression"
-  },
-  "2026-06-23": {
-    "domain": "dl",
-    "topic": "Building NN with TensorFlow"
-  },
   "2026-06-24": {
     "domain": "statistics",
     "topic": "Sampling Techniques"
@@ -406,14 +300,6 @@
   "2026-06-27": {
     "domain": "genai",
     "topic": "Large Language Model Fundamentals"
-  },
-  "2026-06-29": {
-    "domain": "ml",
-    "topic": "Ridge Regression"
-  },
-  "2026-06-30": {
-    "domain": "dl",
-    "topic": "Model Training Best Practices"
   },
   "2026-07-01": {
     "domain": "statistics",
@@ -431,14 +317,6 @@
     "domain": "genai",
     "topic": "Pretraining Objectives in LLMs"
   },
-  "2026-07-06": {
-    "domain": "ml",
-    "topic": "Lasso Regression"
-  },
-  "2026-07-07": {
-    "domain": "dl",
-    "topic": "Model Evaluation in DL"
-  },
   "2026-07-08": {
     "domain": "statistics",
     "topic": "Point Estimation"
@@ -454,14 +332,6 @@
   "2026-07-11": {
     "domain": "genai",
     "topic": "Causal vs Masked Language Models"
-  },
-  "2026-07-13": {
-    "domain": "ml",
-    "topic": "ElasticNet"
-  },
-  "2026-07-14": {
-    "domain": "dl",
-    "topic": "Saving & Loading Models"
   },
   "2026-07-15": {
     "domain": "statistics",
@@ -479,14 +349,6 @@
     "domain": "genai",
     "topic": "Scaling Laws in LLMs"
   },
-  "2026-07-20": {
-    "domain": "ml",
-    "topic": "kNN Regression"
-  },
-  "2026-07-21": {
-    "domain": "dl",
-    "topic": "Convolutional Neural Networks Basics"
-  },
   "2026-07-22": {
     "domain": "statistics",
     "topic": "Hypothesis Testing Basics"
@@ -502,14 +364,6 @@
   "2026-07-25": {
     "domain": "genai",
     "topic": "Fine-Tuning Strategies"
-  },
-  "2026-07-27": {
-    "domain": "ml",
-    "topic": "Decision Tree Regression"
-  },
-  "2026-07-28": {
-    "domain": "dl",
-    "topic": "CNN Architectures Overview"
   },
   "2026-07-29": {
     "domain": "statistics",
@@ -527,14 +381,6 @@
     "domain": "genai",
     "topic": "Instruction Tuning"
   },
-  "2026-08-03": {
-    "domain": "ml",
-    "topic": "Random Forest Regression"
-  },
-  "2026-08-04": {
-    "domain": "dl",
-    "topic": "Pooling Layers Explained"
-  },
   "2026-08-05": {
     "domain": "statistics",
     "topic": "p-value Explained"
@@ -550,14 +396,6 @@
   "2026-08-08": {
     "domain": "genai",
     "topic": "Reinforcement Learning from Human Feedback"
-  },
-  "2026-08-10": {
-    "domain": "ml",
-    "topic": "Gradient Boosting Regression"
-  },
-  "2026-08-11": {
-    "domain": "dl",
-    "topic": "Transfer Learning in CNNs"
   },
   "2026-08-12": {
     "domain": "statistics",
@@ -575,14 +413,6 @@
     "domain": "genai",
     "topic": "Direct Preference Optimization"
   },
-  "2026-08-17": {
-    "domain": "ml",
-    "topic": "XGBoost Regression"
-  },
-  "2026-08-18": {
-    "domain": "dl",
-    "topic": "Fine-Tuning Pretrained Models"
-  },
   "2026-08-19": {
     "domain": "statistics",
     "topic": "Z-Test"
@@ -598,14 +428,6 @@
   "2026-08-22": {
     "domain": "genai",
     "topic": "Parameter-Efficient Fine-Tuning"
-  },
-  "2026-08-24": {
-    "domain": "ml",
-    "topic": "LightGBM Regression"
-  },
-  "2026-08-25": {
-    "domain": "dl",
-    "topic": "Residual Networks (ResNet)"
   },
   "2026-08-26": {
     "domain": "statistics",
@@ -623,14 +445,6 @@
     "domain": "genai",
     "topic": "LoRA and Adapters"
   },
-  "2026-08-31": {
-    "domain": "ml",
-    "topic": "CatBoost Regression"
-  },
-  "2026-09-01": {
-    "domain": "dl",
-    "topic": "DenseNet Overview"
-  },
   "2026-09-02": {
     "domain": "statistics",
     "topic": "Chi-Square Test"
@@ -646,14 +460,6 @@
   "2026-09-05": {
     "domain": "genai",
     "topic": "Prompt Engineering Principles"
-  },
-  "2026-09-07": {
-    "domain": "ml",
-    "topic": "Model Evaluation for Regression"
-  },
-  "2026-09-08": {
-    "domain": "dl",
-    "topic": "EfficientNet Overview"
   },
   "2026-09-09": {
     "domain": "statistics",
@@ -671,14 +477,6 @@
     "domain": "genai",
     "topic": "Chain-of-Thought Prompting"
   },
-  "2026-09-14": {
-    "domain": "ml",
-    "topic": "Feature Importance in Regression"
-  },
-  "2026-09-15": {
-    "domain": "dl",
-    "topic": "Recurrent Neural Networks Basics"
-  },
   "2026-09-16": {
     "domain": "statistics",
     "topic": "Correlation vs Covariance"
@@ -694,14 +492,6 @@
   "2026-09-19": {
     "domain": "genai",
     "topic": "Few-Shot and Zero-Shot Prompting"
-  },
-  "2026-09-21": {
-    "domain": "ml",
-    "topic": "Regularization in Practice"
-  },
-  "2026-09-22": {
-    "domain": "dl",
-    "topic": "LSTM Networks"
   },
   "2026-09-23": {
     "domain": "statistics",
@@ -719,14 +509,6 @@
     "domain": "genai",
     "topic": "Retrieval-Augmented Generation"
   },
-  "2026-09-28": {
-    "domain": "ml",
-    "topic": "Logistic Regression"
-  },
-  "2026-09-29": {
-    "domain": "dl",
-    "topic": "GRU Networks"
-  },
   "2026-09-30": {
     "domain": "statistics",
     "topic": "Spearman Correlation"
@@ -742,14 +524,6 @@
   "2026-10-03": {
     "domain": "genai",
     "topic": "Vector Databases in GenAI"
-  },
-  "2026-10-05": {
-    "domain": "ml",
-    "topic": "kNN Classification"
-  },
-  "2026-10-06": {
-    "domain": "dl",
-    "topic": "Sequence Modeling Concepts"
   },
   "2026-10-07": {
     "domain": "statistics",
@@ -767,14 +541,6 @@
     "domain": "genai",
     "topic": "Embedding Models"
   },
-  "2026-10-12": {
-    "domain": "ml",
-    "topic": "Decision Tree Classifier"
-  },
-  "2026-10-13": {
-    "domain": "dl",
-    "topic": "Bidirectional RNNs"
-  },
   "2026-10-14": {
     "domain": "statistics",
     "topic": "Maximum Likelihood Estimation"
@@ -790,14 +556,6 @@
   "2026-10-17": {
     "domain": "genai",
     "topic": "Text-to-Image Generation"
-  },
-  "2026-10-19": {
-    "domain": "ml",
-    "topic": "Random Forest Classifier"
-  },
-  "2026-10-20": {
-    "domain": "dl",
-    "topic": "Attention Mechanism"
   },
   "2026-10-21": {
     "domain": "statistics",
@@ -815,14 +573,6 @@
     "domain": "genai",
     "topic": "Image-to-Image Generation"
   },
-  "2026-10-26": {
-    "domain": "ml",
-    "topic": "Gradient Boosting Classifier"
-  },
-  "2026-10-27": {
-    "domain": "dl",
-    "topic": "Transformers Architecture"
-  },
   "2026-10-28": {
     "domain": "statistics",
     "topic": "Bias & Variance in Estimation"
@@ -838,14 +588,6 @@
   "2026-10-31": {
     "domain": "genai",
     "topic": "Text-to-Video Generation"
-  },
-  "2026-11-02": {
-    "domain": "ml",
-    "topic": "XGBoost Classifier"
-  },
-  "2026-11-03": {
-    "domain": "dl",
-    "topic": "Self-Attention Explained"
   },
   "2026-11-04": {
     "domain": "statistics",
@@ -863,14 +605,6 @@
     "domain": "genai",
     "topic": "Multimodal Generative Models"
   },
-  "2026-11-09": {
-    "domain": "ml",
-    "topic": "LightGBM Classifier"
-  },
-  "2026-11-10": {
-    "domain": "dl",
-    "topic": "Positional Encoding"
-  },
   "2026-11-11": {
     "domain": "statistics",
     "topic": "Multicollinearity"
@@ -886,14 +620,6 @@
   "2026-11-14": {
     "domain": "genai",
     "topic": "Vision-Language Models"
-  },
-  "2026-11-16": {
-    "domain": "ml",
-    "topic": "CatBoost Classifier"
-  },
-  "2026-11-17": {
-    "domain": "dl",
-    "topic": "Encoder-Decoder Models"
   },
   "2026-11-18": {
     "domain": "statistics",
@@ -911,14 +637,6 @@
     "domain": "genai",
     "topic": "Audio Generation Models"
   },
-  "2026-11-23": {
-    "domain": "ml",
-    "topic": "Support Vector Machines"
-  },
-  "2026-11-24": {
-    "domain": "dl",
-    "topic": "BERT Architecture Overview"
-  },
   "2026-11-25": {
     "domain": "statistics",
     "topic": "Skewness & Kurtosis"
@@ -934,14 +652,6 @@
   "2026-11-28": {
     "domain": "genai",
     "topic": "Speech Synthesis Models"
-  },
-  "2026-11-30": {
-    "domain": "ml",
-    "topic": "Naive Bayes"
-  },
-  "2026-12-01": {
-    "domain": "dl",
-    "topic": "GPT Architecture Overview"
   },
   "2026-12-02": {
     "domain": "statistics",
@@ -959,14 +669,6 @@
     "domain": "genai",
     "topic": "Music Generation Models"
   },
-  "2026-12-07": {
-    "domain": "ml",
-    "topic": "Multiclass Classification"
-  },
-  "2026-12-08": {
-    "domain": "dl",
-    "topic": "Fine-Tuning Transformer Models"
-  },
   "2026-12-09": {
     "domain": "statistics",
     "topic": "Data Normalization vs Standardization"
@@ -982,14 +684,6 @@
   "2026-12-12": {
     "domain": "genai",
     "topic": "Evaluation of Generative Models"
-  },
-  "2026-12-14": {
-    "domain": "ml",
-    "topic": "Multi-label Classification"
-  },
-  "2026-12-15": {
-    "domain": "dl",
-    "topic": "Diffusion Models Overview"
   },
   "2026-12-16": {
     "domain": "statistics",
@@ -1007,14 +701,6 @@
     "domain": "genai",
     "topic": "Perplexity and FID Score"
   },
-  "2026-12-21": {
-    "domain": "ml",
-    "topic": "Handling Imbalanced Data"
-  },
-  "2026-12-22": {
-    "domain": "dl",
-    "topic": "GANs: Generator vs Discriminator"
-  },
   "2026-12-23": {
     "domain": "statistics",
     "topic": "Resampling Methods"
@@ -1030,14 +716,6 @@
   "2026-12-26": {
     "domain": "genai",
     "topic": "Hallucination in LLMs"
-  },
-  "2026-12-28": {
-    "domain": "ml",
-    "topic": "Evaluation Metrics for Classification"
-  },
-  "2026-12-29": {
-    "domain": "dl",
-    "topic": "Variational Autoencoders"
   },
   "2026-12-30": {
     "domain": "statistics",
@@ -1055,14 +733,6 @@
     "domain": "genai",
     "topic": "Bias and Fairness in GenAI"
   },
-  "2027-01-04": {
-    "domain": "ml",
-    "topic": "Confusion Matrix Deep Dive"
-  },
-  "2027-01-05": {
-    "domain": "dl",
-    "topic": "Autoencoders in Practice"
-  },
   "2027-01-06": {
     "domain": "statistics",
     "topic": "A/B Testing Fundamentals"
@@ -1078,14 +748,6 @@
   "2027-01-09": {
     "domain": "genai",
     "topic": "Safety Alignment Techniques"
-  },
-  "2027-01-11": {
-    "domain": "ml",
-    "topic": "ROC & PR Curves"
-  },
-  "2027-01-12": {
-    "domain": "dl",
-    "topic": "Multimodal Deep Learning"
   },
   "2027-01-13": {
     "domain": "statistics",
@@ -1103,14 +765,6 @@
     "domain": "genai",
     "topic": "Red Teaming for LLMs"
   },
-  "2027-01-18": {
-    "domain": "ml",
-    "topic": "Threshold Tuning"
-  },
-  "2027-01-19": {
-    "domain": "dl",
-    "topic": "Graph Neural Networks"
-  },
   "2027-01-20": {
     "domain": "statistics",
     "topic": "Effect Size"
@@ -1126,14 +780,6 @@
   "2027-01-23": {
     "domain": "genai",
     "topic": "Adversarial Attacks on Generative Models"
-  },
-  "2027-01-25": {
-    "domain": "ml",
-    "topic": "Ensemble Learning Basics"
-  },
-  "2027-01-26": {
-    "domain": "dl",
-    "topic": "Reinforcement Learning with Deep Networks"
   },
   "2027-01-27": {
     "domain": "statistics",
@@ -1151,14 +797,6 @@
     "domain": "genai",
     "topic": "Model Robustness in GenAI"
   },
-  "2027-02-01": {
-    "domain": "ml",
-    "topic": "Stacking & Blending"
-  },
-  "2027-02-02": {
-    "domain": "dl",
-    "topic": "Deep Q Networks"
-  },
   "2027-02-03": {
     "domain": "statistics",
     "topic": "Causal Inference Basics"
@@ -1174,14 +812,6 @@
   "2027-02-06": {
     "domain": "genai",
     "topic": "Knowledge Distillation for LLMs"
-  },
-  "2027-02-08": {
-    "domain": "ml",
-    "topic": "Model Interpretability"
-  },
-  "2027-02-09": {
-    "domain": "dl",
-    "topic": "Policy Gradient Methods"
   },
   "2027-02-10": {
     "domain": "statistics",
@@ -1199,14 +829,6 @@
     "domain": "genai",
     "topic": "Quantization of Large Models"
   },
-  "2027-02-15": {
-    "domain": "ml",
-    "topic": "K-Means Clustering"
-  },
-  "2027-02-16": {
-    "domain": "dl",
-    "topic": "Model Compression Techniques"
-  },
   "2027-02-17": {
     "domain": "statistics",
     "topic": "Time Series Statistics Basics"
@@ -1222,14 +844,6 @@
   "2027-02-20": {
     "domain": "genai",
     "topic": "Pruning Large Language Models"
-  },
-  "2027-02-22": {
-    "domain": "ml",
-    "topic": "Hierarchical Clustering"
-  },
-  "2027-02-23": {
-    "domain": "dl",
-    "topic": "Quantization in DL"
   },
   "2027-02-24": {
     "domain": "statistics",
@@ -1247,14 +861,6 @@
     "domain": "genai",
     "topic": "Distributed Training of LLMs"
   },
-  "2027-03-01": {
-    "domain": "ml",
-    "topic": "DBSCAN"
-  },
-  "2027-03-02": {
-    "domain": "dl",
-    "topic": "Pruning Neural Networks"
-  },
   "2027-03-03": {
     "domain": "statistics",
     "topic": "Autocorrelation"
@@ -1270,14 +876,6 @@
   "2027-03-06": {
     "domain": "genai",
     "topic": "Mixture of Experts Models"
-  },
-  "2027-03-08": {
-    "domain": "ml",
-    "topic": "Gaussian Mixture Models"
-  },
-  "2027-03-09": {
-    "domain": "dl",
-    "topic": "Knowledge Distillation"
   },
   "2027-03-10": {
     "domain": "statistics",
@@ -1295,14 +893,6 @@
     "domain": "genai",
     "topic": "Sparse Transformers"
   },
-  "2027-03-15": {
-    "domain": "ml",
-    "topic": "Clustering Evaluation"
-  },
-  "2027-03-16": {
-    "domain": "dl",
-    "topic": "Distributed Training"
-  },
   "2027-03-17": {
     "domain": "statistics",
     "topic": "Heteroscedasticity"
@@ -1318,14 +908,6 @@
   "2027-03-20": {
     "domain": "genai",
     "topic": "Memory-Augmented Models"
-  },
-  "2027-03-22": {
-    "domain": "ml",
-    "topic": "Dimensionality Reduction in ML"
-  },
-  "2027-03-23": {
-    "domain": "dl",
-    "topic": "Mixed Precision Training"
   },
   "2027-03-24": {
     "domain": "statistics",
@@ -1343,14 +925,6 @@
     "domain": "genai",
     "topic": "Long-Context Modeling"
   },
-  "2027-03-29": {
-    "domain": "ml",
-    "topic": "PCA for ML Pipelines"
-  },
-  "2027-03-30": {
-    "domain": "dl",
-    "topic": "Handling Large-Scale Data"
-  },
   "2027-03-31": {
     "domain": "statistics",
     "topic": "ROC Curve Statistical Meaning"
@@ -1366,14 +940,6 @@
   "2027-04-03": {
     "domain": "genai",
     "topic": "Agentic AI Concepts"
-  },
-  "2027-04-05": {
-    "domain": "ml",
-    "topic": "Feature Selection Techniques"
-  },
-  "2027-04-06": {
-    "domain": "dl",
-    "topic": "Experiment Tracking in DL"
   },
   "2027-04-07": {
     "domain": "statistics",
@@ -1391,14 +957,6 @@
     "domain": "genai",
     "topic": "Tool-Calling in LLMs"
   },
-  "2027-04-12": {
-    "domain": "ml",
-    "topic": "Anomaly Detection"
-  },
-  "2027-04-13": {
-    "domain": "dl",
-    "topic": "Model Deployment for DL"
-  },
   "2027-04-14": {
     "domain": "statistics",
     "topic": "Calibration of Probabilities"
@@ -1414,14 +972,6 @@
   "2027-04-17": {
     "domain": "genai",
     "topic": "Planning and Reasoning in LLMs"
-  },
-  "2027-04-19": {
-    "domain": "ml",
-    "topic": "Isolation Forest"
-  },
-  "2027-04-20": {
-    "domain": "dl",
-    "topic": "Serving Models with FastAPI"
   },
   "2027-04-21": {
     "domain": "statistics",
@@ -1439,14 +989,6 @@
     "domain": "genai",
     "topic": "Self-Reflection in LLMs"
   },
-  "2027-04-26": {
-    "domain": "ml",
-    "topic": "One-Class SVM"
-  },
-  "2027-04-27": {
-    "domain": "dl",
-    "topic": "Dockerizing DL Models"
-  },
   "2027-04-28": {
     "domain": "statistics",
     "topic": "Information Gain"
@@ -1462,14 +1004,6 @@
   "2027-05-01": {
     "domain": "genai",
     "topic": "Synthetic Data Generation"
-  },
-  "2027-05-03": {
-    "domain": "ml",
-    "topic": "Association Rule Mining"
-  },
-  "2027-05-04": {
-    "domain": "dl",
-    "topic": "Monitoring DL Models"
   },
   "2027-05-05": {
     "domain": "statistics",
@@ -1487,14 +1021,6 @@
     "domain": "genai",
     "topic": "Data-Centric Generative AI"
   },
-  "2027-05-10": {
-    "domain": "ml",
-    "topic": "Apriori Algorithm"
-  },
-  "2027-05-11": {
-    "domain": "dl",
-    "topic": "Drift Detection in DL"
-  },
   "2027-05-12": {
     "domain": "statistics",
     "topic": "Jensen-Shannon Divergence"
@@ -1510,14 +1036,6 @@
   "2027-05-15": {
     "domain": "genai",
     "topic": "Evaluation Benchmarks for LLMs"
-  },
-  "2027-05-17": {
-    "domain": "ml",
-    "topic": "Market Basket Analysis"
-  },
-  "2027-05-18": {
-    "domain": "dl",
-    "topic": "Explainability in DL"
   },
   "2027-05-19": {
     "domain": "statistics",
@@ -1535,14 +1053,6 @@
     "domain": "genai",
     "topic": "Open-Source LLM Ecosystem"
   },
-  "2027-05-24": {
-    "domain": "ml",
-    "topic": "Customer Segmentation"
-  },
-  "2027-05-25": {
-    "domain": "dl",
-    "topic": "SHAP for Deep Models"
-  },
   "2027-05-26": {
     "domain": "statistics",
     "topic": "Logistic Regression Statistical View"
@@ -1558,14 +1068,6 @@
   "2027-05-29": {
     "domain": "genai",
     "topic": "Proprietary vs Open Models"
-  },
-  "2027-05-31": {
-    "domain": "ml",
-    "topic": "Hyperparameter Tuning"
-  },
-  "2027-06-01": {
-    "domain": "dl",
-    "topic": "LIME for Deep Models"
   },
   "2027-06-02": {
     "domain": "statistics",
@@ -1583,14 +1085,6 @@
     "domain": "genai",
     "topic": "Cost Optimization in LLMs"
   },
-  "2027-06-07": {
-    "domain": "ml",
-    "topic": "Grid Search"
-  },
-  "2027-06-08": {
-    "domain": "dl",
-    "topic": "Adversarial Attacks in DL"
-  },
   "2027-06-09": {
     "domain": "statistics",
     "topic": "Prior & Posterior Distributions"
@@ -1606,14 +1100,6 @@
   "2027-06-12": {
     "domain": "genai",
     "topic": "Latency Optimization in GenAI"
-  },
-  "2027-06-14": {
-    "domain": "ml",
-    "topic": "Random Search"
-  },
-  "2027-06-15": {
-    "domain": "dl",
-    "topic": "Adversarial Defense Techniques"
   },
   "2027-06-16": {
     "domain": "statistics",
@@ -1631,14 +1117,6 @@
     "domain": "genai",
     "topic": "Model Versioning in GenAI"
   },
-  "2027-06-21": {
-    "domain": "ml",
-    "topic": "Bayesian Optimization"
-  },
-  "2027-06-22": {
-    "domain": "dl",
-    "topic": "Ethics in Deep Learning"
-  },
   "2027-06-23": {
     "domain": "statistics",
     "topic": "Expectation & Variance"
@@ -1654,14 +1132,6 @@
   "2027-06-26": {
     "domain": "genai",
     "topic": "Monitoring Generative Systems"
-  },
-  "2027-06-28": {
-    "domain": "ml",
-    "topic": "Early Stopping"
-  },
-  "2027-06-29": {
-    "domain": "dl",
-    "topic": "Bias in Deep Models"
   },
   "2027-06-30": {
     "domain": "statistics",
@@ -1679,14 +1149,6 @@
     "domain": "genai",
     "topic": "Drift Detection in GenAI"
   },
-  "2027-07-05": {
-    "domain": "ml",
-    "topic": "Cross-Validation Strategies"
-  },
-  "2027-07-06": {
-    "domain": "dl",
-    "topic": "Energy Efficiency in DL"
-  },
   "2027-07-07": {
     "domain": "statistics",
     "topic": "Eigenvalues & Eigenvectors in ML"
@@ -1702,14 +1164,6 @@
   "2027-07-10": {
     "domain": "genai",
     "topic": "Explainability in Generative Models"
-  },
-  "2027-07-12": {
-    "domain": "ml",
-    "topic": "Feature Selection with Models"
-  },
-  "2027-07-13": {
-    "domain": "dl",
-    "topic": "Edge Deployment of DL Models"
   },
   "2027-07-14": {
     "domain": "statistics",
@@ -1727,14 +1181,6 @@
     "domain": "genai",
     "topic": "Uncertainty in Generative Models"
   },
-  "2027-07-19": {
-    "domain": "ml",
-    "topic": "Handling High Cardinality"
-  },
-  "2027-07-20": {
-    "domain": "dl",
-    "topic": "ONNX for Model Portability"
-  },
   "2027-07-21": {
     "domain": "statistics",
     "topic": "Dimensionality Reduction Statistical View"
@@ -1750,14 +1196,6 @@
   "2027-07-24": {
     "domain": "genai",
     "topic": "Calibration of LLM Outputs"
-  },
-  "2027-07-26": {
-    "domain": "ml",
-    "topic": "Handling Large Datasets"
-  },
-  "2027-07-27": {
-    "domain": "dl",
-    "topic": "TensorRT Optimization"
   },
   "2027-07-28": {
     "domain": "statistics",
@@ -1775,14 +1213,6 @@
     "domain": "genai",
     "topic": "Ethical Frameworks for GenAI"
   },
-  "2027-08-02": {
-    "domain": "ml",
-    "topic": "Model Calibration"
-  },
-  "2027-08-03": {
-    "domain": "dl",
-    "topic": "TorchScript Overview"
-  },
   "2027-08-04": {
     "domain": "statistics",
     "topic": "Expectation Maximization Algorithm"
@@ -1798,14 +1228,6 @@
   "2027-08-07": {
     "domain": "genai",
     "topic": "Copyright and IP in GenAI"
-  },
-  "2027-08-09": {
-    "domain": "ml",
-    "topic": "Cost-Sensitive Learning"
-  },
-  "2027-08-10": {
-    "domain": "dl",
-    "topic": "Model Versioning Strategies"
   },
   "2027-08-11": {
     "domain": "statistics",
@@ -1823,14 +1245,6 @@
     "domain": "genai",
     "topic": "Privacy Concerns in Generative AI"
   },
-  "2027-08-16": {
-    "domain": "ml",
-    "topic": "Handling Noisy Data"
-  },
-  "2027-08-17": {
-    "domain": "dl",
-    "topic": "A/B Testing DL Models"
-  },
   "2027-08-18": {
     "domain": "statistics",
     "topic": "Hidden Markov Models"
@@ -1846,14 +1260,6 @@
   "2027-08-21": {
     "domain": "genai",
     "topic": "Federated Generative Models"
-  },
-  "2027-08-23": {
-    "domain": "ml",
-    "topic": "Robust ML Techniques"
-  },
-  "2027-08-24": {
-    "domain": "dl",
-    "topic": "Hyperparameter Search with Optuna"
   },
   "2027-08-25": {
     "domain": "statistics",
@@ -1871,14 +1277,6 @@
     "domain": "genai",
     "topic": "Continual Learning in LLMs"
   },
-  "2027-08-30": {
-    "domain": "ml",
-    "topic": "Error Analysis in ML"
-  },
-  "2027-08-31": {
-    "domain": "dl",
-    "topic": "AutoML for Deep Learning"
-  },
   "2027-09-01": {
     "domain": "statistics",
     "topic": "Likelihood Ratio Test"
@@ -1894,14 +1292,6 @@
   "2027-09-04": {
     "domain": "genai",
     "topic": "Multimodal Fusion Strategies"
-  },
-  "2027-09-06": {
-    "domain": "ml",
-    "topic": "Model Comparison Strategies"
-  },
-  "2027-09-07": {
-    "domain": "dl",
-    "topic": "Curriculum Learning"
   },
   "2027-09-08": {
     "domain": "statistics",
@@ -1919,14 +1309,6 @@
     "domain": "genai",
     "topic": "Cross-Lingual Generative Models"
   },
-  "2027-09-13": {
-    "domain": "ml",
-    "topic": "Introduction to Time Series in ML"
-  },
-  "2027-09-14": {
-    "domain": "dl",
-    "topic": "Self-Supervised Learning"
-  },
   "2027-09-15": {
     "domain": "statistics",
     "topic": "Kernel Density Estimation"
@@ -1942,14 +1324,6 @@
   "2027-09-18": {
     "domain": "genai",
     "topic": "Foundation Models Overview"
-  },
-  "2027-09-20": {
-    "domain": "ml",
-    "topic": "Feature Engineering for Time Series"
-  },
-  "2027-09-21": {
-    "domain": "dl",
-    "topic": "Contrastive Learning"
   },
   "2027-09-22": {
     "domain": "statistics",
@@ -1967,14 +1341,6 @@
     "domain": "genai",
     "topic": "Alignment Research Directions"
   },
-  "2027-09-27": {
-    "domain": "ml",
-    "topic": "Rolling Window Validation"
-  },
-  "2027-09-28": {
-    "domain": "dl",
-    "topic": "Few-Shot Learning"
-  },
   "2027-09-29": {
     "domain": "statistics",
     "topic": "Distribution Shift"
@@ -1990,14 +1356,6 @@
   "2027-10-02": {
     "domain": "genai",
     "topic": "Emerging Trends in Diffusion Models"
-  },
-  "2027-10-04": {
-    "domain": "ml",
-    "topic": "Tree-Based Models for Time Series"
-  },
-  "2027-10-05": {
-    "domain": "dl",
-    "topic": "Zero-Shot Learning"
   },
   "2027-10-06": {
     "domain": "statistics",
@@ -2015,14 +1373,6 @@
     "domain": "genai",
     "topic": "Scaling Beyond Trillion Parameters"
   },
-  "2027-10-11": {
-    "domain": "ml",
-    "topic": "Forecasting with ML Models"
-  },
-  "2027-10-12": {
-    "domain": "dl",
-    "topic": "Large-Scale Model Training"
-  },
   "2027-10-13": {
     "domain": "statistics",
     "topic": "Statistical Monitoring in Production"
@@ -2038,14 +1388,6 @@
   "2027-10-16": {
     "domain": "genai",
     "topic": "Neurosymbolic Generative AI"
-  },
-  "2027-10-18": {
-    "domain": "ml",
-    "topic": "Reinforcement Learning Basics"
-  },
-  "2027-10-19": {
-    "domain": "dl",
-    "topic": "Parameter-Efficient Fine-Tuning"
   },
   "2027-10-20": {
     "domain": "statistics",
@@ -2063,14 +1405,6 @@
     "domain": "genai",
     "topic": "Cognitive Architectures in AI"
   },
-  "2027-10-25": {
-    "domain": "ml",
-    "topic": "Markov Decision Process"
-  },
-  "2027-10-26": {
-    "domain": "dl",
-    "topic": "LoRA Explained"
-  },
   "2027-10-27": {
     "domain": "statistics",
     "topic": "Uncertainty Quantification"
@@ -2086,14 +1420,6 @@
   "2027-10-30": {
     "domain": "genai",
     "topic": "Autonomous AI Systems"
-  },
-  "2027-11-01": {
-    "domain": "ml",
-    "topic": "Q-Learning"
-  },
-  "2027-11-02": {
-    "domain": "dl",
-    "topic": "Prompt Tuning Basics"
   },
   "2027-11-03": {
     "domain": "statistics",
@@ -2111,14 +1437,6 @@
     "domain": "genai",
     "topic": "Human-AI Collaboration Models"
   },
-  "2027-11-08": {
-    "domain": "ml",
-    "topic": "Policy-Based Methods"
-  },
-  "2027-11-09": {
-    "domain": "dl",
-    "topic": "Model Scaling Laws"
-  },
   "2027-11-10": {
     "domain": "statistics",
     "topic": "Bayesian Networks"
@@ -2134,14 +1452,6 @@
   "2027-11-13": {
     "domain": "genai",
     "topic": "Evaluation Frameworks for GenAI"
-  },
-  "2027-11-15": {
-    "domain": "ml",
-    "topic": "Practical RL Applications"
-  },
-  "2027-11-16": {
-    "domain": "dl",
-    "topic": "Data-Centric AI in DL"
   },
   "2027-11-17": {
     "domain": "statistics",
@@ -2159,14 +1469,6 @@
     "domain": "genai",
     "topic": "Advanced Prompting Paradigms"
   },
-  "2027-11-22": {
-    "domain": "ml",
-    "topic": "ML Pipeline Design"
-  },
-  "2027-11-23": {
-    "domain": "dl",
-    "topic": "Synthetic Data Generation"
-  },
   "2027-11-24": {
     "domain": "statistics",
     "topic": "Survival Analysis Basics"
@@ -2182,14 +1484,6 @@
   "2027-11-27": {
     "domain": "genai",
     "topic": "Theoretical Foundations of Generative Modeling"
-  },
-  "2027-11-29": {
-    "domain": "ml",
-    "topic": "Model Deployment Basics"
-  },
-  "2027-11-30": {
-    "domain": "dl",
-    "topic": "Robustness Testing"
   },
   "2027-12-01": {
     "domain": "statistics",
@@ -2207,14 +1501,6 @@
     "domain": "genai",
     "topic": "Information Theory in Generative AI"
   },
-  "2027-12-06": {
-    "domain": "ml",
-    "topic": "FastAPI for ML APIs"
-  },
-  "2027-12-07": {
-    "domain": "dl",
-    "topic": "Model Governance"
-  },
   "2027-12-08": {
     "domain": "statistics",
     "topic": "Statistical Learning Theory Basics"
@@ -2230,14 +1516,6 @@
   "2027-12-11": {
     "domain": "genai",
     "topic": "Optimization Challenges in LLMs"
-  },
-  "2027-12-13": {
-    "domain": "ml",
-    "topic": "Dockerizing ML Models"
-  },
-  "2027-12-14": {
-    "domain": "dl",
-    "topic": "Building End-to-End DL System"
   },
   "2027-12-15": {
     "domain": "statistics",
@@ -2255,14 +1533,6 @@
     "domain": "genai",
     "topic": "Energy Efficiency in Large Models"
   },
-  "2027-12-20": {
-    "domain": "ml",
-    "topic": "CI/CD for ML"
-  },
-  "2027-12-21": {
-    "domain": "dl",
-    "topic": "Future Trends in Deep Learning"
-  },
   "2027-12-22": {
     "domain": "statistics",
     "topic": "PAC Learning"
@@ -2278,14 +1548,6 @@
   "2027-12-25": {
     "domain": "genai",
     "topic": "Sustainability in AI Systems"
-  },
-  "2027-12-27": {
-    "domain": "ml",
-    "topic": "Model Monitoring"
-  },
-  "2027-12-28": {
-    "domain": "dl",
-    "topic": "Deep Learning Interview Preparation"
   },
   "2027-12-29": {
     "domain": "statistics",
@@ -2303,14 +1565,6 @@
     "domain": "genai",
     "topic": "Future of Generative AI"
   },
-  "2028-01-03": {
-    "domain": "ml",
-    "topic": "Drift Detection"
-  },
-  "2028-01-04": {
-    "domain": "dl",
-    "topic": "Deep Learning Case Studies"
-  },
   "2028-01-05": {
     "domain": "statistics",
     "topic": "End-to-End Statistical Thinking in ML"
@@ -2326,29 +1580,5 @@
   "2028-01-08": {
     "domain": "genai",
     "topic": "Research Frontiers in Foundation Models"
-  },
-  "2028-01-10": {
-    "domain": "ml",
-    "topic": "A/B Testing in ML"
-  },
-  "2028-01-11": {
-    "domain": "dl",
-    "topic": "Open-Source DL Projects to Build"
-  },
-  "2028-01-17": {
-    "domain": "ml",
-    "topic": "Explainable ML in Production"
-  },
-  "2028-01-18": {
-    "domain": "dl",
-    "topic": "Scaling DL for Production"
-  },
-  "2028-01-24": {
-    "domain": "ml",
-    "topic": "Building End-to-End ML System"
-  },
-  "2028-01-25": {
-    "domain": "dl",
-    "topic": "Designing Production-Grade DL Pipelines"
   }
 }
