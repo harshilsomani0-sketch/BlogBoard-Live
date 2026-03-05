@@ -1,0 +1,18 @@
+[
+  {
+    "id": "blogs/cv/computer-vision-intro.md",
+    "category": "cv",
+    "title": "Computer Vision Intro",
+    "description": "Learn computer vision basics and applications. Discover image processing techniques",
+    "date": "2026-03-06",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "machine-learning",
+      "deep-learning",
+      "ai-techniques"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/computer-vision-intro.md"
+  }
+]
