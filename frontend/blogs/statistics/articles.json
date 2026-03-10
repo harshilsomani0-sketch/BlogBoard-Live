@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/ml-data-types.md",
+    "category": "statistics",
+    "title": "ML Data Types",
+    "description": "Learn key data types in ML. Improve model accuracy.",
+    "date": "2026-03-11",
+    "tags": [
+      "machine-learning",
+      "data-preprocessing",
+      "data-analysis",
+      "data-types",
+      "ml-models"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/ml-data-types.md"
+  },
+  {
     "id": "blogs/statistics/stats-for-aiml.md",
     "category": "statistics",
     "title": "Stats for AI/ML",
