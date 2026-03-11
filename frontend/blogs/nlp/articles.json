@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/nlp-text-preprocessing.md",
+    "category": "nlp",
+    "title": "NLP Text Preprocessing",
+    "description": "Learn text preprocessing techniques to improve NLP model accuracy",
+    "date": "2026-03-12",
+    "tags": [
+      "natural-language-processing",
+      "text-preprocessing",
+      "machine-learning",
+      "data-cleaning",
+      "nlp-techniques"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/nlp-text-preprocessing.md"
+  },
+  {
     "id": "blogs/nlp/nlp-basics.md",
     "category": "nlp",
     "title": "NLP Basics",
