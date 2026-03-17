@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/population-vs-sample.md",
+    "category": "statistics",
+    "title": "Population vs Sample",
+    "description": "Learn key differences, gain insights",
+    "date": "2026-03-18",
+    "tags": [
+      "statistics-for-ai",
+      "machine-learning-concepts",
+      "data-science-fundamentals",
+      "population-statistics",
+      "sample-size-calculation"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/population-vs-sample.md"
+  },
+  {
     "id": "blogs/statistics/ml-data-types.md",
     "category": "statistics",
     "title": "ML Data Types",
