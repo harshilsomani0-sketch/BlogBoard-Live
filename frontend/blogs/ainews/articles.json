@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-4.md",
+    "category": "ainews",
+    "title": "The Week in AI #4",
+    "description": "This article discusses recent significant developments in the artificial intelligence landscape, highlighting its growing presence in various sectors.",
+    "date": "2026-03-22",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/the-week-in-ai-4.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-3.md",
     "category": "ainews",
     "title": "The Week in AI #3",
