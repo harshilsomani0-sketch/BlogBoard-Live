@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/central-tendency-measures.md",
+    "category": "statistics",
+    "title": "Central Tendency Measures",
+    "description": "Learn to calculate mean, median, and mode for data analysis. Improve your statistical skills.",
+    "date": "2026-03-25",
+    "tags": [
+      "central-tendency",
+      "mean-median-mode",
+      "data-analysis",
+      "statistical-measures",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/central-tendency-measures.md"
+  },
+  {
     "id": "blogs/statistics/population-vs-sample.md",
     "category": "statistics",
     "title": "Population vs Sample",
