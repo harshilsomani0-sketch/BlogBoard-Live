@@ -1,5 +1,37 @@
 [
   {
+    "id": "blogs/cv/image-convolution.md",
+    "category": "cv",
+    "title": "Image Convolution",
+    "description": "Learn to enhance images with filters and convolution techniques, improving image quality and analysis",
+    "date": "2026-03-27",
+    "tags": [
+      "image-filtering",
+      "convolutional-neural-networks",
+      "computer-vision",
+      "digital-image-processing",
+      "convolution-techniques"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/image-convolution.md"
+  },
+  {
+    "id": "blogs/cv/image-filtering-convolution.md",
+    "category": "cv",
+    "title": "Image Filtering Convolution",
+    "description": "Learn image filtering and convolution techniques for improved image processing, discover how to apply these methods for enhanced results",
+    "date": "2026-03-27",
+    "tags": [
+      "computer-vision",
+      "image-filtering",
+      "convolution-techniques",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/image-filtering-convolution.md"
+  },
+  {
     "id": "blogs/cv/image-representation.md",
     "category": "cv",
     "title": "Image Representation",
