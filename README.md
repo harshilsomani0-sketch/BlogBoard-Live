@@ -1,7 +1,10 @@
 # <a href="https://harshilsomani0-sketch.github.io/BlogBoard-Live/">BlogBoard — Autonomous AI Article Generator</a>
 
-<p align="center"> <img src="https://img.shields.io/github/license/harshilsomani0-sketch/BlogBoard-AI-Blog-Generator?style=ROUND" alt="License" /> <img src="https://img.shields.io/github/stars/harshilsomani0-sketch/BlogBoard-AI-Blog-Generator?style=ROUND" alt="Stars" /> <img src="https://img.shields.io/github/forks/harshilsomani0-sketch/BlogBoard-AI-Blog-Generator?style=ROUND" alt="Forks" /> 
- <img src="https://img.shields.io/github/issues/harshilsomani0-sketch/BlogBoard-AI-Blog-Generator?style=ROUND"alt="Issues" />
+<p align="center"> 
+  <img src="https://img.shields.io/github/license/harshilsomani0-sketch/BlogBoard-Live?style=flat" alt="License" /> 
+  <img src="https://img.shields.io/github/stars/harshilsomani0-sketch/BlogBoard-Live?style=flat" alt="Stars" /> 
+  <img src="https://img.shields.io/github/forks/harshilsomani0-sketch/BlogBoard-Live?style=flat" alt="Forks" /> 
+  <img src="https://img.shields.io/github/issues/harshilsomani0-sketch/BlogBoard-Live?style=flat" alt="Issues" />
 </p>
 
 ## About The Project
