@@ -48,6 +48,9 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
+          # FORCED DEPENDENCY INSTALL TO PREVENT CRASHES
+          uv pip install langgraph groq python-dotenv
+          
           DATE_ARG=""
           DRY_RUN_ARG=""
 
