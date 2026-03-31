@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/measures-of-dispersion.md",
+    "category": "statistics",
+    "title": "Measures of Dispersion",
+    "description": "Learn measures of data spread. Improve ML models",
+    "date": "2026-04-01",
+    "tags": [
+      "machine-learning",
+      "data-science",
+      "statistics-for-ai",
+      "data-analysis",
+      "dispersion-measures"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/measures-of-dispersion.md"
+  },
+  {
     "id": "blogs/statistics/central-tendency-measures.md",
     "category": "statistics",
     "title": "Central Tendency Measures",
