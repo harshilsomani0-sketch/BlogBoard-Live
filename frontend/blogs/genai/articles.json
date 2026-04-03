@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/energy-based-models.md",
+    "category": "genai",
+    "title": "Energy-Based Models",
+    "description": "Learn energy-based models for generative AI, discover their applications and benefits",
+    "date": "2026-04-04",
+    "tags": [
+      "energy-based-models",
+      "generative-ai",
+      "deep-learning",
+      "machine-learning",
+      "neural-networks"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/energy-based-models.md"
+  },
+  {
     "id": "blogs/genai/generative-ai-models.md",
     "category": "genai",
     "title": "Generative AI Models",
