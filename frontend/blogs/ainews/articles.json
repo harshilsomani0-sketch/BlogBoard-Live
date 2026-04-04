@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-6.md",
+    "category": "ainews",
+    "title": "The Week in AI #6",
+    "description": "This article discusses the latest developments in artificial intelligence, highlighting a significant shift in the landscape of AI development and deployment across various industries.",
+    "date": "2026-04-05",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "10 min",
+    "file": "blogs/ainews/the-week-in-ai-6.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-5.md",
     "category": "ainews",
     "title": "The Week in AI #5",
