@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/ml/unsupervised-ml-clustering.md",
+    "category": "ml",
+    "title": "Unsupervised ML Clustering",
+    "description": "Discover how clustering algorithms work and apply them to real-world problems, gaining insights from unlabeled data.",
+    "date": "2026-04-06",
+    "tags": [
+      "machine-learning",
+      "clustering-algorithms",
+      "unsupervised-learning",
+      "data-analysis",
+      "pattern-recognition"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ml/unsupervised-ml-clustering.md"
+  },
+  {
     "id": "blogs/ml/supervised-ml-classification.md",
     "category": "ml",
     "title": "Supervised ML Classification",
