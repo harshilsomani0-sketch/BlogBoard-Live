@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/probability-basics.md",
+    "category": "statistics",
+    "title": "Probability Basics",
+    "description": "Master probability fundamentals, boost AI skills",
+    "date": "2026-04-08",
+    "tags": [
+      "probability-theory",
+      "statistics-for-ai",
+      "machine-learning",
+      "data-science",
+      "probability-concepts"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/probability-basics.md"
+  },
+  {
     "id": "blogs/statistics/measures-of-dispersion.md",
     "category": "statistics",
     "title": "Measures of Dispersion",
