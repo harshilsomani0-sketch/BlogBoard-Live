@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/histogram-equalization.md",
+    "category": "cv",
+    "title": "Histogram Equalization",
+    "description": "Learn to enhance image contrast with histogram equalization. Improve image quality",
+    "date": "2026-04-10",
+    "tags": [
+      "image-processing",
+      "computer-vision",
+      "histogram-equalization",
+      "image-enhancement",
+      "contrast-adjustment"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/histogram-equalization.md"
+  },
+  {
     "id": "blogs/cv/edge-detection.md",
     "category": "cv",
     "title": "Edge Detection",
