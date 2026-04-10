@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/variational-autoencoders.md",
+    "category": "genai",
+    "title": "Variational Autoencoders",
+    "description": "Master generative models with VAEs, learn to generate data",
+    "date": "2026-04-11",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "autoencoders",
+      "machine-learning",
+      "neural-networks"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/genai/variational-autoencoders.md"
+  },
+  {
     "id": "blogs/genai/energy-based-models.md",
     "category": "genai",
     "title": "Energy-Based Models",
