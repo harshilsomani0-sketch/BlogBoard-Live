@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-7.md",
+    "category": "ainews",
+    "title": "The Week in AI #7",
+    "description": "The AI industry is experiencing a significant shift towards prioritizing ethics and governance, with major players announcing new initiatives to ensure responsible AI development and use.",
+    "date": "2026-04-12",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-7.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-6.md",
     "category": "ainews",
     "title": "The Week in AI #6",
