@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/conditional-probability.md",
+    "category": "statistics",
+    "title": "Conditional Probability",
+    "description": "Learn conditional probability basics for AI. Improve model accuracy",
+    "date": "2026-04-15",
+    "tags": [
+      "artificial-intelligence",
+      "machine-learning",
+      "statistics-basics",
+      "probability-theory",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/conditional-probability.md"
+  },
+  {
     "id": "blogs/statistics/probability-basics.md",
     "category": "statistics",
     "title": "Probability Basics",
