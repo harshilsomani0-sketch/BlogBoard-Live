@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/image-thresholding.md",
+    "category": "cv",
+    "title": "Image Thresholding",
+    "description": "Learn image thresholding techniques to enhance image processing. Improve image quality",
+    "date": "2026-04-17",
+    "tags": [
+      "image-processing",
+      "computer-vision",
+      "thresholding-techniques",
+      "image-segmentation",
+      "object-detection"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/cv/image-thresholding.md"
+  },
+  {
     "id": "blogs/cv/histogram-equalization.md",
     "category": "cv",
     "title": "Histogram Equalization",
