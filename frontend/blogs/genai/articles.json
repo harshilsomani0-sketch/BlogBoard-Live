@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/gan-fundamentals.md",
+    "category": "genai",
+    "title": "GAN Fundamentals",
+    "description": "Learn GAN basics for generative AI. Discover key concepts and applications.",
+    "date": "2026-04-18",
+    "tags": [
+      "generative-models",
+      "deep-learning",
+      "neural-networks",
+      "computer-vision",
+      "machine-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/gan-fundamentals.md"
+  },
+  {
     "id": "blogs/genai/variational-autoencoders.md",
     "category": "genai",
     "title": "Variational Autoencoders",
