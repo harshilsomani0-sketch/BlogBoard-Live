@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/tf-idf-representation.md",
+    "category": "nlp",
+    "title": "TF-IDF Representation",
+    "description": "Learn TF-IDF for text analysis, improve model accuracy",
+    "date": "2026-04-23",
+    "tags": [
+      "natural-language-processing",
+      "text-analysis",
+      "machine-learning",
+      "information-retrieval",
+      "data-preprocessing"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/tf-idf-representation.md"
+  },
+  {
     "id": "blogs/nlp/bag-of-words-model.md",
     "category": "nlp",
     "title": "Bag of Words Model",
