@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/morphological-operations.md",
+    "category": "cv",
+    "title": "Morphological Operations",
+    "description": "Learn morphological operations for image processing and improve your computer vision skills",
+    "date": "2026-04-24",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "morphological-operations",
+      "image-analysis",
+      "image-segmentation"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/morphological-operations.md"
+  },
+  {
     "id": "blogs/cv/image-thresholding.md",
     "category": "cv",
     "title": "Image Thresholding",
