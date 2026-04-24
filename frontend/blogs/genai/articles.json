@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/gan-training-challenges.md",
+    "category": "genai",
+    "title": "GAN Training Challenges",
+    "description": "Learn to overcome common GAN training issues, improve model stability.",
+    "date": "2026-04-25",
+    "tags": [
+      "generative-adversarial-networks",
+      "deep-learning",
+      "neural-network-optimization",
+      "machine-learning-challenges",
+      "ai-model-training"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/gan-training-challenges.md"
+  },
+  {
     "id": "blogs/genai/gan-fundamentals.md",
     "category": "genai",
     "title": "GAN Fundamentals",
