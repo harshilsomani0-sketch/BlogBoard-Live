@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-9.md",
+    "category": "ainews",
+    "title": "The Week in AI #9",
+    "description": "This article discusses the evolving artificial intelligence landscape and the significant shift in how companies, governments, and researchers approach AI development and deployment.",
+    "date": "2026-04-26",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ainews/the-week-in-ai-9.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-8.md",
     "category": "ainews",
     "title": "The Week in AI #8",
