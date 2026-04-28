@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/random-variables-explained.md",
+    "category": "statistics",
+    "title": "Random Variables Explained",
+    "description": "Learn about random variables and their role in statistics for AI, gain insights into probability distributions",
+    "date": "2026-04-29",
+    "tags": [
+      "random-variables",
+      "probability-theory",
+      "statistical-modeling",
+      "machine-learning",
+      "data-analysis"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/random-variables-explained.md"
+  },
+  {
     "id": "blogs/statistics/bayes-theorem.md",
     "category": "statistics",
     "title": "Bayes Theorem",
