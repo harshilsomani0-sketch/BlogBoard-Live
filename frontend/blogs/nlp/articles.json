@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/n-grams-language-modeling.md",
+    "category": "nlp",
+    "title": "N-grams Language Modeling",
+    "description": "Learn n-grams for language modeling. Improve text analysis",
+    "date": "2026-04-30",
+    "tags": [
+      "natural-language-processing",
+      "language-modeling",
+      "n-grams",
+      "text-analysis",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/n-grams-language-modeling.md"
+  },
+  {
     "id": "blogs/nlp/tf-idf-representation.md",
     "category": "nlp",
     "title": "TF-IDF Representation",
