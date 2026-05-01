@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/conditional-gans.md",
+    "category": "genai",
+    "title": "Conditional GANs",
+    "description": "Learn to generate realistic data with conditional GANs, improve model performance",
+    "date": "2026-05-02",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "conditional-gans",
+      "neural-networks",
+      "artificial-intelligence"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/conditional-gans.md"
+  },
+  {
     "id": "blogs/genai/gan-training-challenges.md",
     "category": "genai",
     "title": "GAN Training Challenges",
