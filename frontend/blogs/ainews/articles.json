@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-10.md",
+    "category": "ainews",
+    "title": "The Week in AI #10",
+    "description": "This article discusses the subtle yet significant developments in the AI landscape, highlighting underlying trends and industry shifts amidst a lack of major news stories.",
+    "date": "2026-05-03",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/the-week-in-ai-10.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-9.md",
     "category": "ainews",
     "title": "The Week in AI #9",
