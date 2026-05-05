@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/probability-distributions.md",
+    "category": "statistics",
+    "title": "Probability Distributions",
+    "description": "Learn about probability distributions and their applications",
+    "date": "2026-05-06",
+    "tags": [
+      "probability-distributions",
+      "statistics-for-ai",
+      "machine-learning",
+      "data-science",
+      "probability-theory"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/probability-distributions.md"
+  },
+  {
     "id": "blogs/statistics/random-variables-explained.md",
     "category": "statistics",
     "title": "Random Variables Explained",
