@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/word-embeddings.md",
+    "category": "nlp",
+    "title": "Word Embeddings",
+    "description": "Learn word embeddings for NLP tasks, improve model performance",
+    "date": "2026-05-07",
+    "tags": [
+      "natural-language-processing",
+      "word-embeddings",
+      "deep-learning",
+      "nlp-techniques",
+      "language-models"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/word-embeddings.md"
+  },
+  {
     "id": "blogs/nlp/n-grams-language-modeling.md",
     "category": "nlp",
     "title": "N-grams Language Modeling",
