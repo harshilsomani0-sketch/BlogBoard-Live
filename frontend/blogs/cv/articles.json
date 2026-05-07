@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/sift-surf.md",
+    "category": "cv",
+    "title": "SIFT SURF",
+    "description": "Learn SIFT and SURF for image matching and object detection. Improve computer vision skills",
+    "date": "2026-05-08",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "feature-detection",
+      "object-recognition",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/sift-surf.md"
+  },
+  {
     "id": "blogs/cv/feature-detection.md",
     "category": "cv",
     "title": "Feature Detection",
