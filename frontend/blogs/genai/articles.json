@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/cyclegan-explained.md",
+    "category": "genai",
+    "title": "CycleGAN Explained",
+    "description": "Learn to generate realistic images with CycleGAN. Discover its applications",
+    "date": "2026-05-09",
+    "tags": [
+      "generative-models",
+      "deep-learning",
+      "image-synthesis",
+      "cycle-consistency",
+      " neural-networks"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/cyclegan-explained.md"
+  },
+  {
     "id": "blogs/genai/conditional-gans.md",
     "category": "genai",
     "title": "Conditional GANs",
