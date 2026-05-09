@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-11.md",
+    "category": "ainews",
+    "title": "The Week in AI #11",
+    "description": "This article discusses the recent significant shift in AI development, with a growing focus on the intersection of AI and industry, driven by major investments from key players.",
+    "date": "2026-05-10",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ainews/the-week-in-ai-11.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-10.md",
     "category": "ainews",
     "title": "The Week in AI #10",
