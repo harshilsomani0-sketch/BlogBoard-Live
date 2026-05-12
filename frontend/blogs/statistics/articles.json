@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/normal-distribution.md",
+    "category": "statistics",
+    "title": "Normal Distribution",
+    "description": "Learn normal distribution for AI, understand data patterns",
+    "date": "2026-05-13",
+    "tags": [
+      "normal-distribution",
+      "statistics-for-ai",
+      "data-analysis",
+      "machine-learning",
+      "probability-theory"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/normal-distribution.md"
+  },
+  {
     "id": "blogs/statistics/probability-distributions.md",
     "category": "statistics",
     "title": "Probability Distributions",
