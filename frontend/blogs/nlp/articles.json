@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/word2vec-architecture.md",
+    "category": "nlp",
+    "title": "Word2Vec Architecture",
+    "description": "Learn Word2Vec for NLP tasks, understand its architecture",
+    "date": "2026-05-14",
+    "tags": [
+      "natural-language-processing",
+      "word-embeddings",
+      "machine-learning",
+      "deep-learning",
+      "word2vec-model"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/word2vec-architecture.md"
+  },
+  {
     "id": "blogs/nlp/word-embeddings.md",
     "category": "nlp",
     "title": "Word Embeddings",
