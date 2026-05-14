@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/orb-features.md",
+    "category": "cv",
+    "title": "ORB Features",
+    "description": "Learn ORB features for image matching, detection and more",
+    "date": "2026-05-15",
+    "tags": [
+      "computer-vision",
+      "feature-detection",
+      "image-processing",
+      "object-recognition",
+      "orb-features"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/orb-features.md"
+  },
+  {
     "id": "blogs/cv/sift-surf.md",
     "category": "cv",
     "title": "SIFT SURF",
