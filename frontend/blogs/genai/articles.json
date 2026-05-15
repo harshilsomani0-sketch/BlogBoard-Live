@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/diffusion-models.md",
+    "category": "genai",
+    "title": "Diffusion Models",
+    "description": "Learn diffusion model basics and applications",
+    "date": "2026-05-16",
+    "tags": [
+      "generative-models",
+      "deep-learning",
+      "ai-techniques",
+      "machine-learning",
+      "neural-networks"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/genai/diffusion-models.md"
+  },
+  {
     "id": "blogs/genai/cyclegan-explained.md",
     "category": "genai",
     "title": "CycleGAN Explained",
