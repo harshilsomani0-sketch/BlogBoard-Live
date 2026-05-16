@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-12.md",
+    "category": "ainews",
+    "title": "The Week in AI #12",
+    "description": "The AI landscape is evolving rapidly, with a shift towards practical applications and away from theoretical models, driven by advances in computing power and algorithms.",
+    "date": "2026-05-17",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ainews/the-week-in-ai-12.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-11.md",
     "category": "ainews",
     "title": "The Week in AI #11",
