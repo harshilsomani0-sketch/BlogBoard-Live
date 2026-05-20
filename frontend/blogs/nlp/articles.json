@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/glove-embeddings.md",
+    "category": "nlp",
+    "title": "GloVe Embeddings",
+    "description": "Learn GloVe word embeddings for NLP tasks. Improve text analysis",
+    "date": "2026-05-21",
+    "tags": [
+      "natural-language-processing",
+      "word-embeddings",
+      "glove-embeddings",
+      "text-analysis",
+      "deep-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/glove-embeddings.md"
+  },
+  {
     "id": "blogs/nlp/word2vec-architecture.md",
     "category": "nlp",
     "title": "Word2Vec Architecture",
