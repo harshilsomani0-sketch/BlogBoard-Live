@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/image-segmentation.md",
+    "category": "cv",
+    "title": "Image Segmentation",
+    "description": "Learn image segmentation basics, boost computer vision skills",
+    "date": "2026-05-22",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "deep-learning",
+      "machine-learning",
+      "object-detection"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/image-segmentation.md"
+  },
+  {
     "id": "blogs/cv/orb-features.md",
     "category": "cv",
     "title": "ORB Features",
