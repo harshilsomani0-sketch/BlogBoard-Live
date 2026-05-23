@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-13.md",
+    "category": "ainews",
+    "title": "The Week in AI #13",
+    "description": "This article discusses the subtle yet significant shifts in the artificial intelligence industry, highlighting underlying trends and forces shaping its future.",
+    "date": "2026-05-24",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-13.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-12.md",
     "category": "ainews",
     "title": "The Week in AI #12",
