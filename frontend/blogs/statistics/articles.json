@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/poisson-distribution.md",
+    "category": "statistics",
+    "title": "Poisson Distribution",
+    "description": "Learn Poisson Distribution for modeling rare events. Master probability theory",
+    "date": "2026-05-27",
+    "tags": [
+      "poisson-distribution",
+      "probability-theory",
+      "statistics-for-ai",
+      "machine-learning",
+      "data-modeling"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/poisson-distribution.md"
+  },
+  {
     "id": "blogs/statistics/binomial-distribution.md",
     "category": "statistics",
     "title": "Binomial Distribution",
