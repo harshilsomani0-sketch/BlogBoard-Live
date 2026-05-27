@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/fasttext-model.md",
+    "category": "nlp",
+    "title": "FastText Model",
+    "description": "Learn FastText for text classification. Improve NLP tasks",
+    "date": "2026-05-28",
+    "tags": [
+      "natural-language-processing",
+      "machine-learning",
+      "text-classification",
+      "fast-text",
+      "deep-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/fasttext-model.md"
+  },
+  {
     "id": "blogs/nlp/glove-embeddings.md",
     "category": "nlp",
     "title": "GloVe Embeddings",
