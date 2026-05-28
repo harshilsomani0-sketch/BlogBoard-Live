@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/k-means-image-segmentation.md",
+    "category": "cv",
+    "title": "K-Means Image Segmentation",
+    "description": "Learn to segment images using K-Means clustering, improve image analysis",
+    "date": "2026-05-29",
+    "tags": [
+      "k-means-clustering",
+      "image-segmentation",
+      "computer-vision",
+      "machine-learning",
+      "image-processing"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/k-means-image-segmentation.md"
+  },
+  {
     "id": "blogs/cv/image-segmentation.md",
     "category": "cv",
     "title": "Image Segmentation",
