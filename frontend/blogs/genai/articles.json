@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/latent-diffusion-models.md",
+    "category": "genai",
+    "title": "Latent Diffusion Models",
+    "description": "Learn to generate high-quality images with latent diffusion models. Unlock their potential",
+    "date": "2026-05-30",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "diffusion-based",
+      "latent-space",
+      "image-synthesis"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/latent-diffusion-models.md"
+  },
+  {
     "id": "blogs/genai/denoising-diffusion-models.md",
     "category": "genai",
     "title": "Denoising Diffusion Models",
