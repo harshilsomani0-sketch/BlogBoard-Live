@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-14.md",
+    "category": "ainews",
+    "title": "The Week in AI #14",
+    "description": "This week's AI landscape has seen a significant shift towards a greater focus on the ethical implications and responsible development of artificial intelligence.",
+    "date": "2026-05-31",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-14.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-13.md",
     "category": "ainews",
     "title": "The Week in AI #13",
