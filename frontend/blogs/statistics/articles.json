@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/uniform-distribution-explained.md",
+    "category": "statistics",
+    "title": "Uniform Distribution Explained",
+    "description": "Learn about uniform distribution and its applications in statistics and AI. Understand the basics and uses.",
+    "date": "2026-06-03",
+    "tags": [
+      "uniform-distribution",
+      "statistics-for-ai",
+      "machine-learning",
+      "probability-theory",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/uniform-distribution-explained.md"
+  },
+  {
     "id": "blogs/statistics/poisson-distribution.md",
     "category": "statistics",
     "title": "Poisson Distribution",
