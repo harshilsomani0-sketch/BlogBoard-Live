@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/hough-transform.md",
+    "category": "cv",
+    "title": "Hough Transform",
+    "description": "Learn Hough Transform for image processing, detect lines and shapes",
+    "date": "2026-06-05",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "hough-transform",
+      "line-detection",
+      "shape-recognition"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/hough-transform.md"
+  },
+  {
     "id": "blogs/cv/k-means-image-segmentation.md",
     "category": "cv",
     "title": "K-Means Image Segmentation",
