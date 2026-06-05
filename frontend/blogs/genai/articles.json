@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/score-based-models.md",
+    "category": "genai",
+    "title": "Score-Based Models",
+    "description": "Unlock generative AI secrets with score-based models, boosting performance",
+    "date": "2026-06-06",
+    "tags": [
+      "generative-models",
+      "score-based-techniques",
+      "deep-learning",
+      "artificial-intelligence",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/genai/score-based-models.md"
+  },
+  {
     "id": "blogs/genai/latent-diffusion-models.md",
     "category": "genai",
     "title": "Latent Diffusion Models",
