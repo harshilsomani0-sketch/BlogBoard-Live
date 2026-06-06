@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-15.md",
+    "category": "ainews",
+    "title": "The Week in AI #15",
+    "description": "This article discusses the latest developments and trends in the AI landscape, highlighting a significant shift in how enterprises, governments, and investors are approaching artificial intelligence.",
+    "date": "2026-06-07",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ainews/the-week-in-ai-15.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-14.md",
     "category": "ainews",
     "title": "The Week in AI #14",
