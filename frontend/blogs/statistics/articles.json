@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/central-limit-theorem.md",
+    "category": "statistics",
+    "title": "Central Limit Theorem",
+    "description": "Learn to apply CLT for statistical inference and data analysis. Improve your AI models",
+    "date": "2026-06-10",
+    "tags": [
+      "central-limit-theorem",
+      "statistical-inference",
+      "data-analysis",
+      "machine-learning",
+      "probability-theory"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/central-limit-theorem.md"
+  },
+  {
     "id": "blogs/statistics/uniform-distribution-explained.md",
     "category": "statistics",
     "title": "Uniform Distribution Explained",
