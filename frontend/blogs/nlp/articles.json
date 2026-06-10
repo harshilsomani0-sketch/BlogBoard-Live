@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/sentence-embeddings.md",
+    "category": "nlp",
+    "title": "Sentence Embeddings",
+    "description": "Learn document and sentence embeddings techniques",
+    "date": "2026-06-11",
+    "tags": [
+      "natural-language-processing",
+      "sentence-embeddings",
+      "document-embeddings",
+      "language-models",
+      "deep-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/sentence-embeddings.md"
+  },
+  {
     "id": "blogs/nlp/contextual-embeddings.md",
     "category": "nlp",
     "title": "Contextual Embeddings",
