@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/template-matching.md",
+    "category": "cv",
+    "title": "Template Matching",
+    "description": "Learn template matching for image processing and object detection. Improve your CV skills",
+    "date": "2026-06-12",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "object-detection",
+      "template-matching",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/template-matching.md"
+  },
+  {
     "id": "blogs/cv/hough-transform.md",
     "category": "cv",
     "title": "Hough Transform",
