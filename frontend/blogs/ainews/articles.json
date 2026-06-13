@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-16.md",
+    "category": "ainews",
+    "title": "The Week in AI #16",
+    "description": "The AI industry is shifting its focus towards ethics and governance, with major players announcing new initiatives to ensure responsible and transparent AI development and deployment.",
+    "date": "2026-06-14",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-16.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-15.md",
     "category": "ainews",
     "title": "The Week in AI #15",
