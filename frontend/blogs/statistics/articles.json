@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/law-of-large-numbers.md",
+    "category": "statistics",
+    "title": "Law of Large Numbers",
+    "description": "Learn stats fundamentals, understand data behavior",
+    "date": "2026-06-17",
+    "tags": [
+      "law-of-large-numbers",
+      "statistical-inference",
+      "probability-theory",
+      "data-analysis",
+      "ai-statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/law-of-large-numbers.md"
+  },
+  {
     "id": "blogs/statistics/central-limit-theorem.md",
     "category": "statistics",
     "title": "Central Limit Theorem",
