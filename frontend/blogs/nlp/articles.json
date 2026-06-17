@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/nlp-similarity-measures.md",
+    "category": "nlp",
+    "title": "NLP Similarity Measures",
+    "description": "Learn similarity measures in NLP for advanced text analysis. Improve your NLP skills",
+    "date": "2026-06-18",
+    "tags": [
+      "natural-language-processing",
+      "text-similarity",
+      "nlp-techniques",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/nlp-similarity-measures.md"
+  },
+  {
     "id": "blogs/nlp/sentence-embeddings.md",
     "category": "nlp",
     "title": "Sentence Embeddings",
