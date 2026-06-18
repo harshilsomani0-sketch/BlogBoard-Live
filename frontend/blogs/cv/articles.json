@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/optical-flow.md",
+    "category": "cv",
+    "title": "Optical Flow",
+    "description": "Learn optical flow basics and applications, improve cv skills",
+    "date": "2026-06-19",
+    "tags": [
+      "computer-vision",
+      "optical-flow",
+      "image-processing",
+      "deep-learning",
+      "motion-estimation"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/optical-flow.md"
+  },
+  {
     "id": "blogs/cv/template-matching.md",
     "category": "cv",
     "title": "Template Matching",
