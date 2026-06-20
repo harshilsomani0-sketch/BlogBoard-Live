@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-17.md",
+    "category": "ainews",
+    "title": "The Week in AI #17",
+    "description": "This week's AI landscape saw a significant shift towards the adoption of explainable and edge AI in the enterprise sector, driven by the need for transparency and real-time decision-making.",
+    "date": "2026-06-21",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-17.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-16.md",
     "category": "ainews",
     "title": "The Week in AI #16",
