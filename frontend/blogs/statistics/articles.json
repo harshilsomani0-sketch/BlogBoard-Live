@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/stats-sampling.md",
+    "category": "statistics",
+    "title": "Stats Sampling",
+    "description": "Learn statistics sampling techniques, boost AI model accuracy",
+    "date": "2026-06-24",
+    "tags": [
+      "machine-learning",
+      "data-analytics",
+      "statistical-inference",
+      "data-sampling",
+      "artificial-intelligence"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/stats-sampling.md"
+  },
+  {
     "id": "blogs/statistics/law-of-large-numbers.md",
     "category": "statistics",
     "title": "Law of Large Numbers",
