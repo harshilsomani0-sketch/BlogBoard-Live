@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/text-classification.md",
+    "category": "nlp",
+    "title": "Text Classification",
+    "description": "Learn text classification fundamentals and improve NLP skills",
+    "date": "2026-06-25",
+    "tags": [
+      "natural-language-processing",
+      "text-classification",
+      "machine-learning",
+      "deep-learning",
+      "nlp-techniques"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/text-classification.md"
+  },
+  {
     "id": "blogs/nlp/nlp-similarity-measures.md",
     "category": "nlp",
     "title": "NLP Similarity Measures",
