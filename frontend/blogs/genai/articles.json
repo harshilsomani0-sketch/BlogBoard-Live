@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/llm-fundamentals.md",
+    "category": "genai",
+    "title": "LLM Fundamentals",
+    "description": "Learn large language model basics, improve AI skills",
+    "date": "2026-06-27",
+    "tags": [
+      "large-language-models",
+      "natural-language-processing",
+      "generative-ai",
+      "language-generation",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/llm-fundamentals.md"
+  },
+  {
     "id": "blogs/genai/transformer-ai-generation.md",
     "category": "genai",
     "title": "Transformer AI Generation",
