@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-18.md",
+    "category": "ainews",
+    "title": "The Week in AI #18",
+    "description": "This week in AI has seen a significant shift towards responsible AI development and deployment, with a growing emphasis on transparency, accountability, and ethics.",
+    "date": "2026-06-28",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-18.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-17.md",
     "category": "ainews",
     "title": "The Week in AI #17",
