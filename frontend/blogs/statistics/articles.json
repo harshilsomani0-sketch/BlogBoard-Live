@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/sampling-bias-explained.md",
+    "category": "statistics",
+    "title": "Sampling Bias Explained",
+    "description": "Learn to identify and avoid sampling bias in AI data, ensure accurate models",
+    "date": "2026-07-01",
+    "tags": [
+      "machine-learning",
+      "data-science",
+      "statistical-analysis",
+      "bias-detection",
+      "data-quality"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/sampling-bias-explained.md"
+  },
+  {
     "id": "blogs/statistics/stats-sampling.md",
     "category": "statistics",
     "title": "Stats Sampling",
