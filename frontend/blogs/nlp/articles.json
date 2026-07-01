@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/naive-bayes-nlp.md",
+    "category": "nlp",
+    "title": "Naive Bayes NLP",
+    "description": "Learn Naive Bayes for text classification, sentiment analysis. Improve NLP skills",
+    "date": "2026-07-02",
+    "tags": [
+      "natural-language-processing",
+      "machine-learning",
+      "text-classification",
+      "sentiment-analysis",
+      "nlp-techniques"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/naive-bayes-nlp.md"
+  },
+  {
     "id": "blogs/nlp/text-classification.md",
     "category": "nlp",
     "title": "Text Classification",
