@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/region-based-cnn.md",
+    "category": "cv",
+    "title": "Region-Based CNN",
+    "description": "Learn region-based CNN for object detection, segmentation. Improve computer vision skills",
+    "date": "2026-07-03",
+    "tags": [
+      "deep-learning",
+      "computer-vision",
+      "convolutional-neural-networks",
+      "object-detection",
+      "image-segmentation"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/region-based-cnn.md"
+  },
+  {
     "id": "blogs/cv/object-detection.md",
     "category": "cv",
     "title": "Object Detection",
