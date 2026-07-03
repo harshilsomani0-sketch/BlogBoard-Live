@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/llms-pretraining.md",
+    "category": "genai",
+    "title": "LLMs Pretraining",
+    "description": "Discover pretraining objectives in large language models, improve AI understanding",
+    "date": "2026-07-04",
+    "tags": [
+      "large-language-models",
+      "pretraining-objectives",
+      "generative-ai",
+      "natural-language-processing",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/llms-pretraining.md"
+  },
+  {
     "id": "blogs/genai/llm-fundamentals.md",
     "category": "genai",
     "title": "LLM Fundamentals",
