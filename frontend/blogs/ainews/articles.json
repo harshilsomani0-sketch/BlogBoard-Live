@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-19.md",
+    "category": "ainews",
+    "title": "The Week in AI #19",
+    "description": "This article discusses the latest developments in the world of artificial intelligence, focusing on the escalating competition among tech giants, nations, and investors for AI supremacy.",
+    "date": "2026-07-05",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ainews/the-week-in-ai-19.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-18.md",
     "category": "ainews",
     "title": "The Week in AI #18",
