@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/point-estimation.md",
+    "category": "statistics",
+    "title": "Point Estimation",
+    "description": "Learn point estimation techniques for statistical inference. Improve AI model accuracy",
+    "date": "2026-07-08",
+    "tags": [
+      "statistical-inference",
+      "point-estimation",
+      "machine-learning",
+      "artificial-intelligence",
+      "data-science"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/point-estimation.md"
+  },
+  {
     "id": "blogs/statistics/sampling-bias-explained.md",
     "category": "statistics",
     "title": "Sampling Bias Explained",
