@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/logistic-regression-text.md",
+    "category": "nlp",
+    "title": "Logistic Regression Text",
+    "description": "Learn logistic regression for text classification and analysis. Improve your NLP skills.",
+    "date": "2026-07-09",
+    "tags": [
+      "natural-language-processing",
+      "logistic-regression",
+      "text-classification",
+      "machine-learning",
+      "text-analysis"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/logistic-regression-text.md"
+  },
+  {
     "id": "blogs/nlp/naive-bayes-nlp.md",
     "category": "nlp",
     "title": "Naive Bayes NLP",
