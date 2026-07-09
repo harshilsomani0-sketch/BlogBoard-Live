@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/fast-r-cnn.md",
+    "category": "cv",
+    "title": "Fast R-CNN",
+    "description": "Learn fast object detection with R-CNN models. Improve your CV skills",
+    "date": "2026-07-10",
+    "tags": [
+      "computer-vision",
+      "object-detection",
+      "deep-learning",
+      "fast-r-cnn",
+      "faster-r-cnn"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/fast-r-cnn.md"
+  },
+  {
     "id": "blogs/cv/region-based-cnn.md",
     "category": "cv",
     "title": "Region-Based CNN",
