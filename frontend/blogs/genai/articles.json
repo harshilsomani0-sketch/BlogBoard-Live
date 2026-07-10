@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/causal-vs-masked-models.md",
+    "category": "genai",
+    "title": "Causal vs Masked Models",
+    "description": "Learn differences between causal and masked language models, improve your AI skills",
+    "date": "2026-07-11",
+    "tags": [
+      "generative-ai",
+      "language-models",
+      "causal-learning",
+      "masked-lm",
+      "deep-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/causal-vs-masked-models.md"
+  },
+  {
     "id": "blogs/genai/llms-pretraining.md",
     "category": "genai",
     "title": "LLMs Pretraining",
