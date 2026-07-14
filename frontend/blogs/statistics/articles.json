@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/confidence-intervals.md",
+    "category": "statistics",
+    "title": "Confidence Intervals",
+    "description": "Learn to estimate parameters with confidence intervals and improve your statistical models",
+    "date": "2026-07-15",
+    "tags": [
+      "confidence-intervals",
+      "statistical-inference",
+      "hypothesis-testing",
+      "machine-learning",
+      "data-science"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/confidence-intervals.md"
+  },
+  {
     "id": "blogs/statistics/point-estimation.md",
     "category": "statistics",
     "title": "Point Estimation",
