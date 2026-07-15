@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/nlp-metrics.md",
+    "category": "nlp",
+    "title": "NLP Metrics",
+    "description": "Learn key metrics for NLP models, improve performance",
+    "date": "2026-07-16",
+    "tags": [
+      "natural-language-processing",
+      "machine-learning",
+      "evaluation-metrics",
+      "language-models",
+      "text-analysis"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/nlp-metrics.md"
+  },
+  {
     "id": "blogs/nlp/logistic-regression-text.md",
     "category": "nlp",
     "title": "Logistic Regression Text",
