@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/scaling-laws-llms.md",
+    "category": "genai",
+    "title": "Scaling Laws LLMs",
+    "description": "Unlock LLM efficiency with scaling laws. Learn to optimize performance",
+    "date": "2026-07-18",
+    "tags": [
+      "large-language-models",
+      "scaling-laws",
+      "artificial-intelligence",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/scaling-laws-llms.md"
+  },
+  {
     "id": "blogs/genai/causal-vs-masked-models.md",
     "category": "genai",
     "title": "Causal vs Masked Models",
