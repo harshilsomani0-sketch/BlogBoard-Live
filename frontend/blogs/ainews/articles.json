@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-21.md",
+    "category": "ainews",
+    "title": "The Week in AI #21",
+    "description": "This article discusses the latest trends, advancements, and challenges in the field of artificial intelligence over the past week.",
+    "date": "2026-07-19",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ainews/the-week-in-ai-21.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-20.md",
     "category": "ainews",
     "title": "The Week in AI #20",
