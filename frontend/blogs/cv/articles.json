@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/ssd-object-detection.md",
+    "category": "cv",
+    "title": "SSD Object Detection",
+    "description": "Learn SSD object detection for accurate image analysis. Improve your computer vision skills",
+    "date": "2026-07-24",
+    "tags": [
+      "object-detection",
+      "computer-vision",
+      "machine-learning",
+      "deep-learning",
+      "image-processing"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/ssd-object-detection.md"
+  },
+  {
     "id": "blogs/cv/yolo-architecture.md",
     "category": "cv",
     "title": "YOLO Architecture",
