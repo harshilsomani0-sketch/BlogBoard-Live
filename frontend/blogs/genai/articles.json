@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/fine-tuning-ai.md",
+    "category": "genai",
+    "title": "Fine-Tuning AI",
+    "description": "Optimize AI models with expert fine-tuning strategies, boost performance",
+    "date": "2026-07-25",
+    "tags": [
+      "generative-ai",
+      "fine-tuning",
+      "deep-learning",
+      "model-optimization",
+      "ai-training"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/fine-tuning-ai.md"
+  },
+  {
     "id": "blogs/genai/scaling-laws-llms.md",
     "category": "genai",
     "title": "Scaling Laws LLMs",
