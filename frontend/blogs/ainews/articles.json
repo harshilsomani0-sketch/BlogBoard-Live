@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-22.md",
+    "category": "ainews",
+    "title": "The Week in AI #22",
+    "description": "This article discusses the current state of the artificial intelligence industry, highlighting trends and movements shaping the field amidst a lack of a single major news story.",
+    "date": "2026-07-26",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-22.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-21.md",
     "category": "ainews",
     "title": "The Week in AI #21",
