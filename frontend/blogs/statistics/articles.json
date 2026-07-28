@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/null-vs-alt-hypothesis.md",
+    "category": "statistics",
+    "title": "Null vs Alt Hypothesis",
+    "description": "Learn to formulate and test hypotheses with confidence",
+    "date": "2026-07-29",
+    "tags": [
+      "null-hypothesis",
+      "alternative-hypothesis",
+      "statistical-testing",
+      "hypothesis-formulation",
+      "machine-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/null-vs-alt-hypothesis.md"
+  },
+  {
     "id": "blogs/statistics/hypothesis-testing.md",
     "category": "statistics",
     "title": "Hypothesis Testing",
