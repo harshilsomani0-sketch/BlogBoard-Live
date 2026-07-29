@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/latent-dirichlet-allocation.md",
+    "category": "nlp",
+    "title": "Latent Dirichlet Allocation",
+    "description": "Discover LDA for topic modeling, learn to extract insights from text data",
+    "date": "2026-07-30",
+    "tags": [
+      "natural-language-processing",
+      "topic-modeling",
+      "latent-dirichlet-allocation",
+      "text-analysis",
+      "machine-learning"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/latent-dirichlet-allocation.md"
+  },
+  {
     "id": "blogs/nlp/nlp-topic-modeling.md",
     "category": "nlp",
     "title": "NLP Topic Modeling",
