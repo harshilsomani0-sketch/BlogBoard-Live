@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/cnn-image-classification.md",
+    "category": "cv",
+    "title": "CNN Image Classification",
+    "description": "Learn CNNs for image classification, improve accuracy",
+    "date": "2026-07-31",
+    "tags": [
+      "convolutional-neural-networks",
+      "deep-learning",
+      "image-classification",
+      "computer-vision",
+      "machine-learning"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/cv/cnn-image-classification.md"
+  },
+  {
     "id": "blogs/cv/ssd-object-detection.md",
     "category": "cv",
     "title": "SSD Object Detection",
