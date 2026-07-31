@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/instruction-tuning.md",
+    "category": "genai",
+    "title": "Instruction Tuning",
+    "description": "Learn to fine-tune AI models with instruction tuning for better performance",
+    "date": "2026-08-01",
+    "tags": [
+      "generative-ai",
+      "machine-learning",
+      "natural-language-processing",
+      "ai-models",
+      "deep-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/instruction-tuning.md"
+  },
+  {
     "id": "blogs/genai/fine-tuning-ai.md",
     "category": "genai",
     "title": "Fine-Tuning AI",
