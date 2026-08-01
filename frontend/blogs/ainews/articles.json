@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-23.md",
+    "category": "ainews",
+    "title": "The Week in AI #23",
+    "description": "The AI industry has seen a significant shift in focus towards addressing the ethical implications of AI, driven by growing regulatory concerns and new initiatives from major players.",
+    "date": "2026-08-02",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ainews/the-week-in-ai-23.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-22.md",
     "category": "ainews",
     "title": "The Week in AI #22",
