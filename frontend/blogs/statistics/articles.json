@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/p-value-explained.md",
+    "category": "statistics",
+    "title": "p-value Explained",
+    "description": "Learn to interpret p-values in statistical hypothesis testing, understand significance levels.",
+    "date": "2026-08-05",
+    "tags": [
+      "statistical-testing",
+      "hypothesis-testing",
+      "p-value-calculation",
+      "significance-levels",
+      "research-methods"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/p-value-explained.md"
+  },
+  {
     "id": "blogs/statistics/null-vs-alt-hypothesis.md",
     "category": "statistics",
     "title": "Null vs Alt Hypothesis",
