@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/named-entity-recognition.md",
+    "category": "nlp",
+    "title": "Named Entity Recognition",
+    "description": "Master NER for text analysis, extract insights",
+    "date": "2026-08-06",
+    "tags": [
+      "natural-language-processing",
+      "named-entity-recognition",
+      "text-analysis",
+      "machine-learning",
+      "information-retrieval"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/nlp/named-entity-recognition.md"
+  },
+  {
     "id": "blogs/nlp/latent-dirichlet-allocation.md",
     "category": "nlp",
     "title": "Latent Dirichlet Allocation",
