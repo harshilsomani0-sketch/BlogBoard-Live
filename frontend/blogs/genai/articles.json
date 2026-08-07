@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/rl-from-human-feedback.md",
+    "category": "genai",
+    "title": "RL from Human Feedback",
+    "description": "Learn how RL from human feedback boosts AI performance",
+    "date": "2026-08-08",
+    "tags": [
+      "reinforcement-learning",
+      "human-feedback",
+      "ai-training",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/rl-from-human-feedback.md"
+  },
+  {
     "id": "blogs/genai/instruction-tuning.md",
     "category": "genai",
     "title": "Instruction Tuning",
