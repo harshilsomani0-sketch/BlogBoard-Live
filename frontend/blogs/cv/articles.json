@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/transfer-learning-vision.md",
+    "category": "cv",
+    "title": "Transfer Learning Vision",
+    "description": "Boost model accuracy with pre-trained models, learn transfer learning techniques",
+    "date": "2026-08-07",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transfer-learning",
+      "image-classification",
+      "object-detection"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/transfer-learning-vision.md"
+  },
+  {
     "id": "blogs/cv/cnn-image-classification.md",
     "category": "cv",
     "title": "CNN Image Classification",
