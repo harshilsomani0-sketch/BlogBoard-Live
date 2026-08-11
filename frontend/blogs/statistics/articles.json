@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/statistics/type-i-ii-errors.md",
+    "category": "statistics",
+    "title": "Type I & II Errors",
+    "description": "Learn to minimize errors, maximize accuracy. Master type i and type ii errors",
+    "date": "2026-08-12",
+    "tags": [
+      "type-i-errors",
+      "type-ii-errors",
+      "hypothesis-testing",
+      "statistical-analysis",
+      "machine-learning"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/type-i-ii-errors.md"
+  },
+  {
     "id": "blogs/statistics/p-value-explained.md",
     "category": "statistics",
     "title": "p-value Explained",
