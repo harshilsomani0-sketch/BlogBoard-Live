@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/nlp/part-of-speech-tagging.md",
+    "category": "nlp",
+    "title": "Part-of-Speech Tagging",
+    "description": "Learn POS tagging for NLP tasks. Improve text analysis.",
+    "date": "2026-08-13",
+    "tags": [
+      "natural-language-processing",
+      "part-of-speech-tagging",
+      "nlp-techniques",
+      "text-analysis",
+      "machine-learning-algorithms"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/part-of-speech-tagging.md"
+  },
+  {
     "id": "blogs/nlp/named-entity-recognition.md",
     "category": "nlp",
     "title": "Named Entity Recognition",
