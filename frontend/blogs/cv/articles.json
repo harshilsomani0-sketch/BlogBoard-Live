@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/cv/resnet-architecture.md",
+    "category": "cv",
+    "title": "ResNet Architecture",
+    "description": "Learn ResNet for image classification, boost model accuracy",
+    "date": "2026-08-14",
+    "tags": [
+      "deep-learning",
+      "computer-vision",
+      "convolutional-neural-networks",
+      "residual-networks",
+      "image-classification"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/resnet-architecture.md"
+  },
+  {
     "id": "blogs/cv/transfer-learning-vision.md",
     "category": "cv",
     "title": "Transfer Learning Vision",
