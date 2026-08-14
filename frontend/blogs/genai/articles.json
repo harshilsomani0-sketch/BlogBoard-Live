@@ -1,5 +1,21 @@
 [
   {
+    "id": "blogs/genai/direct-preference-optimization.md",
+    "category": "genai",
+    "title": "Direct Preference Optimization",
+    "description": "Learn to optimize preferences with direct methods, boosting model performance",
+    "date": "2026-08-15",
+    "tags": [
+      "generative-models",
+      "preference-learning",
+      "direct-optimization",
+      "machine-learning",
+      "artificial-intelligence"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/genai/direct-preference-optimization.md"
+  },
+  {
     "id": "blogs/genai/rl-from-human-feedback.md",
     "category": "genai",
     "title": "RL from Human Feedback",
