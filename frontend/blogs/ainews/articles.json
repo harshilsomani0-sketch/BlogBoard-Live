@@ -1,5 +1,19 @@
 [
   {
+    "id": "blogs/ainews/the-week-in-ai-25.md",
+    "category": "ainews",
+    "title": "The Week in AI #25",
+    "description": "This week in AI has seen a significant shift in the perception and utilization of artificial intelligence, driven by its increasing convergence with other emerging technologies.",
+    "date": "2026-08-16",
+    "tags": [
+      "ainews",
+      "artificial intelligence",
+      "weekly roundup"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ainews/the-week-in-ai-25.md"
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-24.md",
     "category": "ainews",
     "title": "The Week in AI #24",
